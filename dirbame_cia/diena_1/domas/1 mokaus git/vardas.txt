@@ -1,0 +1,6 @@
+1. github->changes
+2. pazymim norimus failus
+3. parasyti antraste
+4. commit
+5. registruojame pakeitimus savo kompiuteryje
+7. push issiuntimas uzregistruotu
