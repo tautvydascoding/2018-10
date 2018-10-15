@@ -1,0 +1,6 @@
+Changes --> pazytemi norimus ikelti failus --> Commit to master (registruojam pakeitimus SAVO kompiuterije
+
+
+Repository --> Pull (PARSISIUNTIMAS)
+Repository --> Push (failu ISSIUNTIMAS)
+
