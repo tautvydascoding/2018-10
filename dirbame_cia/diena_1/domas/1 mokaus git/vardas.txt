@@ -3,4 +3,5 @@
 3. parasyti antraste
 4. commit
 5. registruojame pakeitimus savo kompiuteryje
+6. pull (failu parsisiuntimas);
 7. push issiuntimas uzregistruotu
