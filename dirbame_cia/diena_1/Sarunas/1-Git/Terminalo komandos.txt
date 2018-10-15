@@ -1,0 +1,21 @@
+pwd ---- parodo kur esi savo PC
+cd Change directory (pvz - cd "c"\users.......")
+cd + tab (spausti tab kiek reikia, kol randi norima kataloga)
+cd .. (islipti atgal vienu katalogu)
+cd . (nieko nedaro)
+ls arba dir (isvardina katalogus ir failus, ka matai)
+mk "pavadinimas"(make dir - sukuria kataloga )
+rm "pavadinimas"(remove - trina failaus)
+rm -r "pavadinimas"(trina katalogus)
+cp "pavadinimas" "i kur kopijuoti" (kopijuoti failus)
+help / ? (paziureto kokios programos veikia)
+
+Ikelimas i Git "
+
+0. git status
+1. git add --all
+1.1 git add "kelias iki failo"
+1.2 git add *.js / *.html (ikelia visus failus su tokia galune)
+2. git commit -m "!zinute!"
+3. git pull
+4. git push
