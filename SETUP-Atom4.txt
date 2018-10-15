@@ -1,4 +1,4 @@
-Parsisiusti: GoogleChrome
+﻿Parsisiusti: GoogleChrome
 
 Parsisiusti: Atom
 Isirasyti iskiepius: Atom -> FIle ->settings ->install
@@ -64,10 +64,15 @@ git config --global user.name "tautvydascoding@gmail.com"
 Kad neprasytu passwordo per git bash terminala:
 PALESITI KOMANDA: 
 git config credential.helper store
-TADA
-PALESITI KOMANDA:
+
+TADA susikurti koki nors faila "pvz" vardas2.txt
+IR PALESITI KOMANDAS:
+
+git add --all
+git commit -m "zinute"
 git pull
 git push
+
 provide user-name and password and those details will be remembered later. The credentials are stored in the disk, with the disk permissions.
 
 if you want to change password later
