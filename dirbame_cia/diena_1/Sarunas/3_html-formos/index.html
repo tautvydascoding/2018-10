@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
   <head>
     <meta charset="utf-8">
-    <title>FORMOS</title>
+    <title>FORMA</title>
   </head>
 
   <body>
-    <h2> Paieska google </h2>
+    <h2> Paieska google</h2>
 
     <form action="index.html" method="post">
-      <input type="text" name="vardas" value="" placeholder="Jusu vardas">
+      <input type="text" name="vardas" value="" placeholder="jusu vardas">
       <br>
       <label for="pastas"> El. Pastas </label>
       <input type="email" name="pastas" value="">
       <br>
-      <label for="Kalendorius"> Data </label>
+      <label for="slaptazodis"> Jusu slaptazodis </label>
+      <input type="password" name="slaptazodis" value="">
+      <br>
+      <label for="kalendorius"> Data </label>
       <input type="date" name="kalendorius" value="">
       <br>
-      <label for="telefonas"> Jusu tlefonas </label>
-      <input type="tel" pattern="370[0-9]{8}" name="telefonas" value="">
+      <label for="telefonas"> Jusu telefonas </label>
+      <input type="tel" pattern="370[0-9]{8}" name="telefonas" value="" required title="iveskite tel. 370 000 0000">
       <br>
-      <button type="submit" name="button">Registracija</button>
+
+      <button type="submit" name="button">
+        Registracija
+      </button>
     </form>
 
   </body>
