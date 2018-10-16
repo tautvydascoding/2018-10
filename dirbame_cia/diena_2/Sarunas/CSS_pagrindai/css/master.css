@@ -1,11 +1,6 @@
 h1 {
   color: red;
 }
-h2 {
-  color: blue;
-}
-
-
 .plotis-50 {
   width: 50%;
 }
@@ -15,10 +10,27 @@ h2 {
 .aukstis-200 {
   min-height: 200px;
 }
-p1 {
-  font-style: italic;
+.h2-color {
+  color: red;
+}
+.h2-color-1 {
+  color: blue;
+}
+.h2-color-2 {
+  color: yellow;
+}
+p{
+  font-size: 14px;
+  text-align: center;
 
 }
-p2 {
-  font-style: oblique;
+h2 {
+  text-align: center;
+}
+article h2 {
+  font-size: 30px;
+}
+h2:hover {
+  color: white;
+  background-color: black;
 }
