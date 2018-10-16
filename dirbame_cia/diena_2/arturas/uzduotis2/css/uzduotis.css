@@ -21,7 +21,7 @@
   opacity: 0.8;
   transition: 0.3s;
 }
-.grey:hover {opacity: 1}
+.golden:hover {opacity: 1}
 
 .red{
   background-color: firebrick;
