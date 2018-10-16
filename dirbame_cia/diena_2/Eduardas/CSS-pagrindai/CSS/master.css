@@ -1,0 +1,43 @@
+h1 {
+  color: red;
+}
+.plotis-50 {
+  width: 50%;
+}
+.fonas-pilkas {
+  background-color: #f1f1f1;
+}
+/* aukstis % neveikia */
+.aukstis-200 {
+  min-height: 200px;
+}
+.h2-red {
+  color: red;
+}
+.h2-blue {
+  color: blue;
+}
+.h2-green {
+  color: green;
+}
+p {
+  text-align: center;
+  font-size: 12px;
+}
+/* Keicia visus h2 esancius Article - siuo atveju Article yra "tetis" */
+article h2 {
+  font-size: 30px;
+}
+/* nugali pries tai buvusia class */
+section .plotis-50 {
+  width: 45%;
+}
+/* keicia spalva uzvedus ant elemento, butent h2 */
+h2:hover {
+  color: white;
+  background-color: black;
+}
+/* keicia visu p spalva, esanciu article
+ article > p {
+  color: blue;
+} */
