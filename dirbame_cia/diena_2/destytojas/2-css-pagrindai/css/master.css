@@ -1,7 +1,9 @@
 h1 {
     color: red;
 }
-
+section .plotis-50 {
+    width: 45%;
+}
 .plotis-50 {
     width: 50%;
     /* aukstis % neveikia */
@@ -12,3 +14,34 @@ h1 {
 .aukstis-200 {
     min-height: 200px;
 }
+/*    komentaras */
+/*  uzduotis: visas 3 antrastes nudazyti skirtingom spalvom */
+/*  uzduotis: visus paragrafu teksta - sumazinti ir iscentruoti  */
+
+article p {
+    font-size: 20px;
+}
+p {
+    font-size: 12px;
+    text-align: center;
+}
+article h2 {
+    font-size: 30px;
+}
+h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ p {
+    text-shadow: 0px 1px 20px  black;
+}
+h2:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+
+/*     */
