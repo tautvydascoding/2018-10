@@ -2,3 +2,73 @@ h1 {
     color: red;
     text-align: center;
 }
+
+.pirmas_elementas {
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: #725b53;
+    margin: 5px;
+    padding: 5px;
+}
+
+.pirma_antraste {
+    background-color: #a1887f;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.pirmas_tekstas {
+    background-color: #d1b7ad;
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+}
+
+.antras_elementas {
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: #c75b39;
+    margin: 5px;
+    padding: 5px;
+}
+
+.antra_antraste {
+    background-color: #ff8a65;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.antras_tekstas {
+    background-color: #ffbb93;
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+}
+
+.trecias_elementas {
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: #707070;
+    margin: 5px;
+    padding: 5px;
+}
+
+.trecia_antraste {
+    background-color: #9e9e9e;
+    color: #cfcfcf;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.trecias_tekstas {
+    background-color: #cfcfcf;
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+}
