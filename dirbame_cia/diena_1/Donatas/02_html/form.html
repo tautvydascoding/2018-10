@@ -11,7 +11,7 @@
 
     <h1> pildyti formą </h1>
 
-        <form action="form.html" method="post">
+        <form action="form.html" method="get">
             <label for="vardas"> Vardas </label>
             <input type="text" name="vardas" value="" placeholder="Jūsų vardas">
             <label for="pavarde"> Pavardė </label>
@@ -31,7 +31,7 @@
             <br>
             <br>
             <label for="tel"> Telefono nr. + </label>
-            <input type="tel" pattern="370[0-9]{8}" name="tel" value="" required title=" įveskite tel. nr. ! 370 000 000" placeholder=" tel. nr. ">
+            <input type="tel" pattern="[0-9]{9}" name="tel" value="" required title="370 000 000" placeholder=" tel. nr. ">
             <br>
             <br>
             <button type="submit" name="" value=""> Registruotis </button>
