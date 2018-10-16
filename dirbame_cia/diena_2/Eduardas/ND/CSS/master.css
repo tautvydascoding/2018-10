@@ -1,0 +1,17 @@
+.fonas-red {
+  background-color: red;
+}
+.fonas-blue {
+  background-color: blue;
+}
+.fonas-green {
+  background-color: green;
+}
+article {
+  display: inline-block;
+  border-style: dotted;
+  text-align: center;
+  font-size: 50px;
+  width: 30%;
+  height: 200px;
+}

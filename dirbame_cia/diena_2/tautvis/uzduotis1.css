@@ -1,0 +1,115 @@
+
+.h2-color {
+    color:blue;
+}
+.h2-color1 {
+  color:red;
+}
+.h2-color2 {
+  color:yellow
+}
+.h2-color3 {
+  color:grey
+}
+.h2-color4 {
+  color:brown
+}
+.h2-color5 {
+  color:purple
+}
+.h2-color6 {
+  color:green
+}
+.h2-color7 {
+  color:#f40
+}
+.h2-color8 {
+   color:#f78
+}
+.h2-color9 {
+   color:#854
+}
+.bg-color10 {
+  background-color:green
+}
+.bg-color11 {
+  background-color:blue
+}
+.bg-color12 {
+  background-color:#f79
+}
+.bg-color13 {
+  background-color:#f523
+}
+.bg-color14 {
+  background-color:#f123
+}
+.bg-color15 {
+  background-color:#f222
+}
+.bg-color16{
+  background-color:#f435
+}
+.bg-color17 {
+  background-color:#f824
+}
+.bg-color18 {
+  background-color:#f794
+}
+.bg-color19 {
+  background-color:#301
+}
+.border1 {
+  border-style: solid #f754
+  border-width: 5px;
+}
+article.one {
+  border-style:solid;
+  border-width:5px;
+  border-color:brown;
+}
+article.two {
+  border-style:solid;
+  border-width:5px;
+  border-color:green;
+}
+article.three {
+  border-style:solid;
+  border-width:5px;
+  border-color:yellow;
+}
+article.four {
+  border-style:solid;
+  border-width:5px;
+  border-color:blue;
+}
+article.five {
+  border-style:solid;
+  border-width:5px;
+  border-color:brown;
+}
+article.six {
+  border-style:solid;
+  border-width:5px;
+  border-color:#f123;
+}
+article.seven {
+  border-style:solid;
+  border-width:5px;
+  border-color:#f94564;
+}
+article.eight {
+  border-style:solid;
+  border-width:5px;
+  border-color:#f74645;
+}
+article.nine {
+  border-style:solid;
+  border-width:5px;
+  border-color:#f45613;
+}
+article.ten {
+  border-style:solid;
+  border-width:5px;
+  border-color:#f21302;
+}

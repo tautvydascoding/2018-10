@@ -1,3 +1,45 @@
 h1 {
   color: green;
 }
+h2 {
+  color: green;
+}
+.plotis-50 {
+  width: 50%;
+}
+.fonas-pilkas {
+  background-color: #f1f1f1;
+}
+.aukstis-200 {
+  max-height: 200px
+}
+.fonas-raudonas {
+  color: red;
+}
+p {
+   font-size: 12px;
+   text-align: center;
+}
+.fonas-rozinis {
+  color: purple;
+}
+.article h2 {
+  font-size: 75px;
+}
+.p {
+  font-size: 45px;
+  text-align: center;
+}
+.fonas-melynas {
+  color: bliu;
+}
+h1,
+ h2,
+  h3,
+   h4, {
+  text-shadow: 0px 1px 20px black;
+}
+h2:hover {
+  color: white;
+  background-color: black;
+}

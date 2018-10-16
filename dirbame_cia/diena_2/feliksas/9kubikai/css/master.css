@@ -1,0 +1,16 @@
+article {
+  border-style: solid;
+  display: inline-block;
+  width: 30%;
+  height: 280px;
+}
+
+.fonas-red {background-color: red;}
+.fonas-blue {background-color: blue;}
+.fonas-green {background-color: green;}
+.fonas-purple {background-color: purple;}
+.fonas-yelou {background-color: yellow;}
+.fonas-lime {background-color: lime;}
+.fonas-olive {background-aqua: olive;}
+.fonas-black {background-color: black;}
+.fonas-magenta {background-color: magenta;}
