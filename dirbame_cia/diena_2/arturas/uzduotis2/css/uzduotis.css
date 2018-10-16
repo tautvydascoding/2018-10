@@ -1,0 +1,21 @@
+.sachmatai{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 250px;
+    height: 250px;
+    background-color: floralwhite;
+}
+.grey{
+  background-color: grey;
+  border-style: solid;
+}
+.golden{
+  background-color: goldenrod;
+  border-style: solid;
+}
+.red{
+  background-color: firebrick;
+  border-style: solid;
+}
