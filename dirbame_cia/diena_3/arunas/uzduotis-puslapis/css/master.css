@@ -1,0 +1,35 @@
+* {box-sizing: border-box;}
+
+.topnav {
+  width: 90%;
+  background-color: pink;
+  height: 40px;
+  padding: 10px;  /*vidinis*/
+  margin: 5px 5%;  /*isorinis*/
+}
+
+.topnav li {
+  float: left;
+  color: red;
+  text-align: center;
+  font-size: 17px;
+  padding-left: 50px;
+}
+
+.topnav li:hover {
+  background-color: black;
+  color: white;
+}
+
+.pagrindinis-meniu {
+  float: left;
+  width: 70%;
+  border: 2px solid black;
+}
+
+.reklamos-meniu {
+  float: right;
+  width: 25%;
+  border: 2px solid black;
+  /*prideti autohigh*/
+}
