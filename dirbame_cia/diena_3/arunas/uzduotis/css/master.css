@@ -1,0 +1,49 @@
+
+.kubas {
+  border-style: solid;
+  text-align: center;
+  height: 50px;
+  margin: 5%;
+
+}
+
+article {
+  float: left;
+}
+
+.plotis-45 {
+  width: 45%;
+}
+
+.plotis-30 {
+  width: 30%;
+}
+
+.plotis-100 {
+  width: 100%;
+}
+
+clearfix {
+  clear: both;
+  content: "";
+}
+
+p {
+  color: black;
+}
+
+.fonas-grey {
+  background-color: grey;
+}
+
+.fonas-blue {
+  background-color: blue;
+  }
+
+.fonas-green {
+  background-color: green;
+}
+
+.fonas-pink {
+  background-color: pink;
+}

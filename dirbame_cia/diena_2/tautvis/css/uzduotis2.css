@@ -2,7 +2,7 @@ article {
   display:inline-block;
   border-color: green;
   border-style:solid;
-  text-align: center;
+  text-align:center;
   font-size: 50px;
   width: 30%;
   height: 200px;
