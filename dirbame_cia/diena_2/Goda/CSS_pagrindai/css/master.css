@@ -7,5 +7,60 @@ background: blue
 }
 p {
   color: black;
-  
- }
+   }
+
+.plotis-50 {
+    width: 50%;
+    }
+
+.fonas-pilkas {
+    background-color: #f1f1f1;
+}
+
+.aukstis-200 {
+  min-height: 200px;
+}
+
+/* komentaras */
+/* antrastes nudazyti skirtingom spalvom ; kurti klases*/
+/* visus paragrafus padaryti mazesnius ir sucentruoti ; klasiu nekurti, nes visi*/
+
+.fonas-raudonas {
+    background-color: red;
+}
+
+.fonas-zalias {
+    background-color: green;
+}
+
+.fonas-geltonas {
+    background-color: yellow;
+}
+
+p {
+  font-size: 12px;
+  text-align: center;
+}
+
+article h2 {
+  font-size: 30px;
+}
+
+section .plotis-50 {
+  width: 45%;
+}
+article.plotis-50 {
+  width: 45%;
+}
+
+
+h1,
+h2,
+h3,
+p {
+  text-shadow: 0px 1px 20px black;
+}
+h2:hover {
+  color: white;
+  background: black;
+}

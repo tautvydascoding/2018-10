@@ -1,7 +1,6 @@
 
-=================HTML + CSS===========================
+=========================HTML + CSS===========================
  UŽDAVINYS
-
 sukurti 10 skritingu straipsniu, pvz:
 
 <article>
