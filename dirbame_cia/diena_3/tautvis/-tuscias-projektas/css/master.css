@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+
+}
+
+h1 {
+    color: red;
+}
+
+article {
+  background-color: #c1c1c1;
+  width: 32%;
+  border: 2px solid #000;
+  margin-left: 1%;
+  float: right;
+}
+h2 {
+  float: right;
+  text-align: center;
+  width: 32%;
+  margin-top: auto;
+  border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
+}
+.spalva{
+  background-color: #7545;
+}
+.spalva1{
+  background-color: pink;
+}
+.spalva2{
+  background-color: red;
+}
+p{
+  padding-top: 20px;
+  text-align: center;
+  margin: 3%;
+}
+.spalva_balta{
+  color: white;
+}
