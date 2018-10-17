@@ -1,0 +1,48 @@
+body {
+    background-color: #cfcfcf;
+}
+
+h1 {
+    color: #000000;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 10px 0px 10px rgba(150, 150, 150, 0.8);
+        -webkit-text-shadow: 10px 0px 10px rgba(150, 150, 150, 0.8);
+        -moz-text-shadow: 10px 0px 10px rgba(150, 150, 150, 0.8);
+}
+
+nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80px;
+    background-color: #757575;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav ul {
+    display: inline-block;
+    vertical-align: middle;
+    list-style-type: none;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+article {
+    float: left;
+    width: 60%;
+    height: auto;
+    background-color: #757575;
+}
+
+aside {
+    float: right;
+    height: auto;
+    background-color: #757575;
+}
