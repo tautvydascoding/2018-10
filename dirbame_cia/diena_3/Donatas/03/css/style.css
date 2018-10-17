@@ -9,7 +9,8 @@ body {
 section {
     float: left;
     width: 30%;
-    height: 200px;
+    height: auto;
+    min-height: 250px;
     background-color: #ffe97d;
     margin: 1%;
     border: #000000 solid 1px;
