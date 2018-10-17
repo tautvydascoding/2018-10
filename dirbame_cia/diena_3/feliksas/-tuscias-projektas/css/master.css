@@ -1,0 +1,36 @@
+.plotis32 {
+  width: 32%;
+}
+.plotis-48 {
+  width: 48.25%;
+}
+.plotis-97 {
+  width: 97%;
+}
+.aukstis {
+  height: 180px;
+}
+.aukstis-1eile {
+  height: 250px;
+}
+.fonas-blue {
+  background-color: blue;
+}
+.fonas-green {
+  background-color: green;
+}
+.fonas-pink {
+  background-color: pink;
+}
+.fonas-red {
+  background-color: red;
+}
+.fonas-yellow {
+  background-color: yellow;
+}
+article {
+  border-style: solid;
+  display: inline-block;
+  width: 30%;
+  height: 280px;
+}
