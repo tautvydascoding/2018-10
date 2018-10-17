@@ -1,0 +1,63 @@
+h1{
+  color: red;
+}
+.a{
+  color: green;
+}
+.b{
+  color: yellow;
+}
+.c{
+  color:pink;
+}
+.d{
+  color: brown;
+}
+.e{
+  color: purple;
+}
+.f{
+  color: red;
+}
+.g{
+  color: grey;
+}
+.h{
+  color: coral;
+}
+.j{
+  color: gold;
+}
+.k{
+  color: orange;
+}
+article{
+  border-style: solid;
+}
+.pir{
+  background-color: grey;
+}
+.ant{
+  background-color: red;
+}
+.tre{
+  background-color: green;
+}
+.ket{
+  background-color: yellow;
+}
+.pen{
+  background-color: coral;
+}
+.ses{
+  background-color: darkorange;
+}
+.sep{
+  background-color: firebrick;
+}
+.ast{
+  background-color: forestgreen;
+}
+.dev{
+  background-color: floralwhite;
+}

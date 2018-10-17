@@ -1,0 +1,43 @@
+h1{  color: red; }
+
+body {background-color: lightblue;}
+
+
+.plotis-50 {
+  width: 50%;
+}
+
+section .plotis-50{ width:45%;}
+/* section.plotis-50   neveikia, nes nera tarpo  */
+
+/* pasiskaityt apie class ir ju reiksma  */
+
+/*  div yra tiesiog beprasmis elementas, kai reikia kazka uzdeti bet nei h1 nei p nei dar kazko nepanaudosi  */
+
+.fonas-pilkas { background-color: #f1f1f1; }
+
+.fonas-zalias {background-color: green;}
+
+.tekstas-melynas {color: blue;}
+
+.aukstis-200 {  min-height: 200px;}
+
+.centravimas {text-align: justify;}
+
+h2 {font-size: 4rem;}
+
+article h2 {font-size: 40px;}
+
+p { text-align: center;
+font-size: 20px;}
+
+h1,
+  h2,
+  h3,
+  p {
+  text-shadow: 1px 1px 20px black;
+  }
+  
+/* užvedus keičia spalvą komanda: */
+  h2:hover {color: white;
+            background-color: black;}
