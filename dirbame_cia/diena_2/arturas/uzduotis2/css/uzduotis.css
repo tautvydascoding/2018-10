@@ -1,0 +1,32 @@
+.sachmatai{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 250px;
+    height: 250px;
+    background-color: floralwhite;
+}
+.grey{
+  background-color: grey;
+  border-style: solid;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.grey:hover {opacity: 1}
+
+.golden{
+  background-color: goldenrod;
+  border-style: solid;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.golden:hover {opacity: 1}
+
+.red{
+  background-color: firebrick;
+  border-style: solid;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.red:hover {opacity: 1}

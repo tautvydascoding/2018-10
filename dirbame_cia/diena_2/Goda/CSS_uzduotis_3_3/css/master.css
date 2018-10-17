@@ -1,0 +1,46 @@
+
+
+h1 {
+  color: red;
+    }
+
+article {
+    display: inline-block;
+    width: 32%;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: blue;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px
+}
+
+h2 {
+  text-align: center;
+
+}
+
+.fonas-red {
+  background-color: red;
+}
+
+.fonas-blue {
+  background-color: blue;
+}
+
+.fonas-grey {
+  background-color: grey;
+}
+
+.tekst-kair-sone {
+    text-align: left;
+}
+
+.tekst-viduryje {
+    text-align: center;
+}
+
+.tekst-des-sone {
+    text-align: right;
+}

@@ -1,0 +1,48 @@
+article {
+
+  display: inline-block;
+  width: 33%;
+  height: 200px;
+  align-content: center;
+}
+
+.center {
+  text-align: center;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.fonas-red {
+  background-color: rgb(0, 255, 55);
+}
+
+.fonas-blue {
+  background-color: blue;
+}
+
+.fonas-green {
+  background-color: green;
+}
+
+.fonas-purple {
+  background-color: rgb(179, 79, 179);
+}
+
+.fonas-yelou {
+  background-color: yellow;
+}
+
+.fonas-lime {
+  background-color: lime;
+}
+
+.fonas-olive {
+  background-aqua: rgb(57, 54, 70);
+}
+
+.fonas-black {
+  background-color: black;
+}
+
+.fonas-magenta {
+  background-color: rgb(255, 38, 0);
+}
