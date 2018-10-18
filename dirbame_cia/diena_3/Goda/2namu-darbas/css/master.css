@@ -1,0 +1,111 @@
+html {
+  background-color: light grey;
+}
+
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 500;
+}
+
+.fonas-green {
+  background-color: green;
+}
+
+.fonas-grey {
+  background-color: grey;
+}
+.fonas-orange {
+  background-color: orange;
+}
+
+.aukstis-500 {
+  height: 500px;
+}
+
+.aukstis-300 {
+  height: 300px;
+}
+
+.aukstis-70 {
+  height: 70px;
+}
+
+header {
+  height: 120px;
+}
+
+.virsutine sekcija {
+  background-color: pink;
+  height: 60px;
+}
+
+nav {
+  float: left;
+  width: 60%;
+  height: 60px;
+  }
+
+.paieska {
+  float: left;
+}
+.paieska input {
+  padding-left: 20px;
+}
+
+button {
+  padding: 10px; 20px;
+  border: none;
+}
+
+nv ul {
+  padding-left: 0;
+}
+
+nav li {
+  float: left;
+  list-style-type: none;
+  width: 25%;
+  text-align: center;
+  margin-top: 4px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.wrapper {
+  overflow: hidden;
+  /* nepamirsti teviniam elementui uzdeti overflow */
+}
+
+main  {
+  width: 70%;
+  float: left;
+  background-color: white
+  padding-bottom:100%
+}
+
+aside {
+  width: 28%;
+  float: left;
+  background-color: pink;
+  padding-bottom: 100%;
+
+  margin-left: 2%;
+}
+
+/* automatinis aukstis  */
+header,
+footer {
+  margin-bottom: 2%;
+  }
+
+.clear-fix {
+  clear: both;
+  content: "";
+}

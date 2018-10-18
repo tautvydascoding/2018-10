@@ -1,0 +1,103 @@
+html {
+    background-color: #c1c1c1;
+}
+body{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Charmonman','Chakra Petch',  Arail, sans-serif;
+    font-weight: 700;
+}
+h1 {
+    color: red;
+}
+header {
+    min-height: 120px;
+}
+
+main {
+    width: 70%;
+    float: left;
+    background-color: #FFF;
+}
+.wrapper {
+    /* automatinis aukstis */
+    overflow: hidden;
+}
+header,
+.wrapper {
+    margin-bottom: 2%;
+}
+aside {
+    margin-left: 2%;
+    width: 28%;
+    float: left;
+    background-color: pink;
+
+    /* automatinis aukstis (nepamirsti tecui uzdeti: overflow: hidden; )*/
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+.virsutine-sekcija {
+    background-color: pink;
+    height: 60px;
+}
+.paieska {
+    float: left;
+    margin-top: 20px;
+}
+.paieska input {
+    padding-left: 20px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+}
+/* ------NAV-------- */
+nav {
+    float: left;
+    width: 60%;
+    height: 60px;
+}
+    nav ul {
+        padding-left: 0;
+    }
+        nav li {
+            float: left;
+            list-style-type: none;
+            width: 25%;
+            text-align: center;
+            margin-top: 4px;
+            text-transform: uppercase;
+        }
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+/* ------END   NAV----- */
+.fonas-green {
+    background-color: green;
+}
+.fonas-grey {
+    background-color: #c3c3c3;
+}
+.fonas-orange {
+    background-color: orange;
+}
+.clear-fix {
+    clear: both;
+    content: "";
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}

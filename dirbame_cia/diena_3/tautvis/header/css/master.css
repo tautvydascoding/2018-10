@@ -1,0 +1,92 @@
+.body {
+  background-color: grey;
+  font-size: 28px;
+}
+.linija {
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+border-style: solid;
+}
+h1 {
+  text-align: center;
+  color: white;
+
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #f3f3f3;
+    background-color: #333;
+
+  }
+  li {
+  float: left;
+  }
+li a {
+display:block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration:none;
+}
+li a:hover {
+  background-color: #111
+}
+p{
+  text-align: left;
+  color:white;
+/* ----nav------*/
+.paieska{
+  float:right;
+}
+
+
+
+nav {
+  float:left;
+  width: 60%;
+  height: 60px;
+}
+
+ul{
+  padding-left: 0;
+}
+li {
+  float:lef;
+  list-style-type: none;
+  width: 20%;
+  text-align: center;
+  margin-top: 4px;
+}
+a{
+
+  text-decoration: none;
+  color: #000;
+}
+
+}
+header {
+  min-height: 100px;
+}
+/* ----nav end------*/
+}
+.fonas-green{
+  background-color: green;
+}
+.fonas-grey{
+  background-color: #c3c3c3;
+}
+.fonas-orange{
+  background-color: orange;
+}
+.viesutine-sekcija {
+background-color: :pink;
+height: 60px;
+}

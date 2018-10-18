@@ -1,0 +1,136 @@
+* {box-sizing: border-box;}
+
+html {
+  background-color: lightgrey;
+
+}
+
+header {
+  min-height: 30px;
+  max-height: 80px;
+  text-align: center;
+  font-size: 40px;
+}
+
+body {
+  background-color: blueviolet;
+  width: 1200px;
+  height: 100%;
+  margin-left: auto;   /*pastato puslapi i viduri*/
+  margin-right: auto;   /*pastato puslapi i viduri*/
+}
+
+p, h2, h3 {
+  padding-left: 5px;
+}
+
+main h2 {
+  text-align: center;
+}
+
+#wrapper {
+  overflow: hidden;
+
+}
+
+main {
+  float: left; 
+  width: 64%;
+  margin-left:5%;
+  border: none;
+  color: black;
+  background-color: white;
+}
+
+aside {
+  float: right;
+  width: 24%;
+  margin-right: 5%;
+  border: none;
+  color: black;
+  background-color: pink;
+  padding-bottom: 100%;  /*automatinis aukstis*/
+  margin-bottom: -100%;  /*automatinis aukstis*/
+
+}
+
+footer {
+  width:90%;
+  margin: 5px 5%;
+  border: none;
+  color: black;
+  background-color: white;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+  nav {
+    width: 90%;
+    background-color: pink;
+    height: 40px;
+    padding: 10px;  /*vidinis */
+    margin: 5px 5%; /* isorinis */
+  }
+
+    nav li {
+      text-transform: uppercase;
+      width: 15%;
+      float: left;
+      text-align: center;
+      color: red;
+      font-size: 17px;
+      padding: 0;
+    }
+
+    a{
+      text-decoration: none;
+      color: black;
+    }
+
+        nav li:hover {
+          background-color: black;
+          color: white;
+        }
+
+    nav .search-container {
+      float: right;
+      width: 22%;
+      margin-right: 5%;
+      font-size: 17px;
+    }
+
+        nav .search-container input {
+        padding-left: 10px;
+        width: 75%;
+        }
+
+
+        nav .search-container button {
+        width: 20%;
+        float: right;
+        background-color: grey;
+        color: white;
+        font-size: 17px;
+        border: none;
+        }
+
+            nav .search-container button:hover {
+              background: lightslategrey;
+            }
+
+.mandras-sriftas {
+  font-family: 'Permanent Marker', cursive;  /*fontai per kableli surasyti reiskia kad jei pirmojo fonto neranda, tai atidarineja sekanti*/
+  font-weight: 10;   /*turetu nurodyti fonto raidziu stori*/
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+}
+            
+.clear-fix {
+  clear: both;
+  content: "";
+}
+
+
