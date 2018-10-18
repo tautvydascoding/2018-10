@@ -1,0 +1,22 @@
+article {
+  width: 50%;
+  background-color: grey;
+  height: 200px;
+}
+
+.dviratis1 {
+  color: red;
+}
+
+.dviratis2 {
+  color: blue;
+}
+
+.dviratis3 {
+  color: purple;
+}
+
+p {
+  text-align: center;
+  font-size: 1em;
+}
