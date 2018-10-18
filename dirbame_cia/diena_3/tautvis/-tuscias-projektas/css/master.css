@@ -8,19 +8,26 @@ h1 {
 }
 
 article {
+  padding-left: 10px;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 20px;
+
+
   background-color: #c1c1c1;
   width: 32%;
   border: 2px solid #000;
   margin-left: 1%;
+
   float: right;
 }
 h2 {
   float: right;
   text-align: center;
   width: 32%;
-  margin-top: auto;
-  border-bottom: 2px solid #000;
+  margin-top: 0;
   border-left: 2px solid #000;
+  border-bottom: 2px solid #000
 }
 .spalva{
   background-color: #7545;
@@ -38,4 +45,9 @@ p{
 }
 .spalva_balta{
   color: white;
+}
+h2{
+  position:relative;
+  top:3px;
+  right: 5px;
 }
