@@ -41,3 +41,31 @@ article {
     margin-left: 1%;
     float: left;
 }
+/* plancetems ir notebook (9") */
+@media (max-width: 992px) {
+    article {
+        width: 48.5%;
+    }
+    .paskutinis {
+        width: 98%;
+        margin-top: 1%;
+    }
+}
+/* iki Tabletu */
+@media (max-width: 767px) {
+    article {
+        width: 98%;
+    }
+    article:first-of-type{
+        margin-bottom: 1%;
+    }
+}
+
+
+
+
+
+
+
+
+/*  */

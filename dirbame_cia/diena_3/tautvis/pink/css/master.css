@@ -1,0 +1,94 @@
+html {
+  background-color: #c1c1c1;
+}
+body {
+
+  width :1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+h1 {
+    color: red;
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+header {
+    min-height: 120px;
+}
+main {
+  width: 70%;
+  float:left;
+  background-color: #fff;
+}
+.wrapper {
+  overflow:hidden;
+}
+header,
+.wrapper {
+  margin-bottom: 2%;
+}
+aside {
+  margin-left:2%;
+  width: 28%;
+  float:left;
+  background-color: pink;
+  /* automatinis aukstis(nepairst tecui uzdeti overflow: hidden;) */
+  padding-bottom: 100%;
+  margin-bottom: -100%;
+}
+.virsutine-sekcija {
+    background-color: pink;
+    height: 60px;
+}
+.paieska {
+    float: left;
+}
+.paieska input {
+padding-left: 20%;
+}
+/* ------NAV-------- */
+nav {
+    float: left;
+    width: 60%;
+    height: 60px;
+}
+  nav ul {
+        padding-left: 0;
+    }
+
+      nav li {
+            float: left;
+            list-style-type: none;
+            width: 25%;
+            text-align: center;
+            margin-left: 0;
+            text-transform: uppercase;
+            /* width: 25%; */
+        }
+/* ------END   NAV----- */
+.fonas-green {
+    background-color: green;
+}
+.fonas-grey {
+    background-color: #c3c3c3;
+}
+.fonas-orange {
+    background-color: orange;
+}
+.clearfix {
+  clear: both;
+  content: "";
+}
