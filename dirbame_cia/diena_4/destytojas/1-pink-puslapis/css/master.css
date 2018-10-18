@@ -5,6 +5,8 @@ body{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Charmonman','Chakra Petch',  Arail, sans-serif;
+    font-weight: 700;
 }
 h1 {
     color: red;
