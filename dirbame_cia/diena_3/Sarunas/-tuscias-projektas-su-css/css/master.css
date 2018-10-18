@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+.line {
+  float: left;
+  width: 33%
+
+}
+
+.bg-blue {
+  background-color: blue;
+}
+.bg-pink {
+  background-color: pink;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.middle {
+  width: 100%
+}
+.bottom {
+  float:left;
+  width: 50%
+}
