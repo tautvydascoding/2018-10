@@ -1,0 +1,107 @@
+* {box-sizing: border-box;}
+
+body {
+  background-color: lightgrey;
+  width: 1200px;
+}
+
+.mandras-sriftas {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center
+}
+
+p, h2 {
+  padding-left: 5px;
+}
+
+.header {
+  width:90%;
+   font-size: 50px;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+}
+
+
+  .topnav {
+    width: 90%;
+    background-color: pink;
+    height: 40px;
+    padding: 10px;  /*vidinis*/
+    margin: 5px 5%;  /*isorinis*/
+  }
+
+    .topnav li {
+      float: left;
+      display: block;
+      text-align: center;
+      color: red;
+      font-size: 17px;
+      padding: 0 50px;
+    }
+
+    .topnav li:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .topnav .search-container {
+      width: 10%;
+      float: right;
+      margin-right: 5%;
+      font-size: 17px;
+    }
+
+    .topnav .search-container button {
+      /* ar reikia nurodyti mygtuko ploti? */
+      float: right;
+      background-color: grey;
+      color: white;
+      font-size: 17px;
+      border: none;
+    }
+
+    .topnav .search-container button:hover {
+      background: lightslategrey;
+    }
+
+    /* .clearfix {
+      clear: both;
+      content: "";
+    } */
+
+.pagrindinis-meniu {
+  float: left;
+  width: 64%;
+  margin-left:5%;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+}
+
+.pagrindinis-meniu h2 {
+  text-align: center;
+
+}
+
+.reklamos-meniu {
+  float: right;
+  width: 24%;
+  margin-right: 5%;
+  border: 2px solid black;
+  color: black;
+  background-color: pink;
+  /*prideti autohigh*/
+}
+
+
+
+.footer {
+  clear: both;
+  width:90%;
+  margin-top: 10px;   /*kodel neveikia ???? */
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+}
