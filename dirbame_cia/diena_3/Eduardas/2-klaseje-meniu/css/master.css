@@ -37,7 +37,7 @@ article {
   background-color: yellow;
   float: right;
   width: 20%;
-  /* padding: 5px 15px;  */ 
+  /* padding: 5px 15px;  */
   margin-top: 0px;
   text-align: center;
   border-color: black;
@@ -49,4 +49,20 @@ article {
   padding-top: 20px;
   padding-left: 12px;
   padding-right: 12px;
+}
+/* Tabletams ir NoteBook (9") */
+@media (max-width: 992px){
+  article {
+    width: 48.5%;
+  }
+  .sushi {
+    width: 98%;
+    margin-top: 1%;
+  }
+}
+/* iki Tabletu (9") */
+@media (max-width: 768px) {
+  article {
+    width: 98%;
+  }
 }
