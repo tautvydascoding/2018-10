@@ -1,77 +1,111 @@
-h1 {
-  color: black;
-  text-align: center;
-  font-family: 'Marck Script', cursive;
+html {
+  background-color: light grey;
 }
 
-h2 {
-  text-align: center;
-  position: absolute;
-  transform: translate (50%, -50%);
-  border:
- right: 0;
-  top: 0;
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 500;
 }
 
-p {
-text-align: left;
-
-}
-.topnav {
-  width: 90%;
-  height: 50px;
-  background-color: #cc3399;
-  padding: 10px;
-  margin: 5%;
+.fonas-green {
+  background-color: green;
 }
 
-li {
+.fonas-grey {
+  background-color: grey;
+}
+.fonas-orange {
+  background-color: orange;
+}
+
+.aukstis-500 {
+  height: 500px;
+}
+
+.aukstis-300 {
+  height: 300px;
+}
+
+.aukstis-70 {
+  height: 70px;
+}
+
+header {
+  height: 120px;
+}
+
+.virsutine sekcija {
+  background-color: pink;
+  height: 60px;
+}
+
+nav {
   float: left;
-  list-style-type: square;
-  margin: 1px;
-  padding: 10px;
+  width: 60%;
+  height: 60px;
+  }
+
+.paieska {
+  float: left;
+}
+.paieska input {
+  padding-left: 20px;
 }
 
-.main {
+button {
+  padding: 10px; 20px;
+  border: none;
+}
+
+nv ul {
+  padding-left: 0;
+}
+
+nav li {
   float: left;
+  list-style-type: none;
+  width: 25%;
+  text-align: center;
+  margin-top: 4px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.wrapper {
+  overflow: hidden;
+  /* nepamirsti teviniam elementui uzdeti overflow */
+}
+
+main  {
   width: 70%;
-  margin-left: 1%;
-  border: 1px solid black;
-  background-color: white;
-  position: relative;
-  padding-left: 1px;
-  padding-right: 1px;
-  padding-top: 3px;
-  padding-bottom: 2px;
-}
-
-.related {
   float: left;
-  width: 24%;
-  margin-left: 1%;
-  border: 1px solid black;
-  background-color: #cc3399;
-  position: relative;
-  padding-left: 1px;
-  padding-right: 1px;
-  padding-top: 3px;
-  padding-bottom: 2px;
+  background-color: white
+  padding-bottom:100%
 }
 
-/* .body {
-  color: light grey;
-  } */
+aside {
+  width: 28%;
+  float: left;
+  background-color: pink;
+  padding-bottom: 100%;
 
-* {
-  box-sizing: border-box;
+  margin-left: 2%;
 }
 
+/* automatinis aukstis  */
+header,
+footer {
+  margin-bottom: 2%;
+  }
 
-
-}
-
-.clearfix {
+.clear-fix {
   clear: both;
   content: "";
-}
 }
