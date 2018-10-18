@@ -12,6 +12,31 @@ h1 {
 header {
     min-height: 120px;
 }
+
+main {
+    width: 70%;
+    float: left;
+    background-color: #FFF;
+}
+.wrapper {
+    /* automatinis aukstis */
+    overflow: hidden;
+}
+header,
+.wrapper {
+    margin-bottom: 2%;
+}
+aside {
+    margin-left: 2%;
+    width: 28%;
+    float: left;
+    background-color: pink;
+
+    /* automatinis aukstis (nepamirsti tecui uzdeti: overflow: hidden; )*/
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
 .virsutine-sekcija {
     background-color: pink;
     height: 60px;
@@ -33,10 +58,10 @@ nav {
     width: 60%;
     height: 60px;
 }
-    ul {
+    nav ul {
         padding-left: 0;
     }
-        li {
+        nav li {
             float: left;
             list-style-type: none;
             width: 25%;
