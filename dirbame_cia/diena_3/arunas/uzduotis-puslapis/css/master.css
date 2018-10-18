@@ -1,107 +1,129 @@
 * {box-sizing: border-box;}
 
-body {
+html {
   background-color: lightgrey;
+
+}
+
+header {
+  min-height: 30px;
+  max-height: 80px;
+  text-align: center;
+  font-size: 40px;
+}
+
+body {
+  background-color: blueviolet;
   width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.mandras-sriftas {
-  font-family: 'Permanent Marker', cursive;
-  text-align: center
-}
-
-p, h2 {
+p, h2, h3 {
   padding-left: 5px;
 }
 
-.header {
-  width:90%;
-   font-size: 50px;
-  color: white;
-  text-shadow: 5px 5px 5px #000000;
+main h2 {
+  text-align: center;
 }
 
-
-  .topnav {
-    width: 90%;
-    background-color: pink;
-    height: 40px;
-    padding: 10px;  /*vidinis*/
-    margin: 5px 5%;  /*isorinis*/
-  }
-
-    .topnav li {
-      float: left;
-      display: block;
-      text-align: center;
-      color: red;
-      font-size: 17px;
-      padding: 0 50px;
-    }
-
-    .topnav li:hover {
-      background-color: black;
-      color: white;
-    }
-
-    .topnav .search-container {
-      width: 10%;
-      float: right;
-      margin-right: 5%;
-      font-size: 17px;
-    }
-
-    .topnav .search-container button {
-      /* ar reikia nurodyti mygtuko ploti? */
-      float: right;
-      background-color: grey;
-      color: white;
-      font-size: 17px;
-      border: none;
-    }
-
-    .topnav .search-container button:hover {
-      background: lightslategrey;
-    }
-
-    /* .clearfix {
-      clear: both;
-      content: "";
-    } */
-
-.pagrindinis-meniu {
+main {
   float: left;
   width: 64%;
   margin-left:5%;
-  border: 2px solid black;
+  border: none;
   color: black;
   background-color: white;
+  /* prideti autohigh */
 }
 
-.pagrindinis-meniu h2 {
-  text-align: center;
-
-}
-
-.reklamos-meniu {
+aside {
   float: right;
   width: 24%;
   margin-right: 5%;
-  border: 2px solid black;
+  border: none;
   color: black;
   background-color: pink;
   /*prideti autohigh*/
 }
 
-
-
-.footer {
-  clear: both;
+footer {
   width:90%;
-  margin-top: 10px;   /*kodel neveikia ???? */
+  margin-top: 5px;  
   margin-left: 5%;
   margin-right: 5%;
-  border: 2px solid black;
+  margin-bottom: 5px
+  
+  border: none;
   color: black;
   background-color: white;
 }
+
+.mandras-sriftas {
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+}
+
+
+  nav {
+    width: 90%;
+    background-color: pink;
+    height: 40px;
+    padding: 10px;  /*vidinis */
+    margin: 5px 5%; /* isorinis */
+  }
+
+    nav li {
+      text-transform: uppercase;
+      width: 15%;
+      float: left;
+      list-style-type: none;
+      text-align: center;
+      color: red;
+      font-size: 17px;
+      padding: 0;
+    }
+
+    a{
+      text-decoration: none;
+      color: black;
+    }
+
+        nav li:hover {
+          background-color: black;
+          color: white;
+        }
+
+    nav .search-container {
+      float: right;
+      width: 22%;
+      margin-right: 5%;
+      font-size: 17px;
+    }
+
+        nav .search-container input {
+        padding-left: 10px;
+        width: 75%;
+        }
+
+
+        nav .search-container button {
+        width: 20%;
+        float: right;
+        background-color: grey;
+        color: white;
+        font-size: 17px;
+        border: none;
+        }
+
+            nav .search-container button:hover {
+              background: lightslategrey;
+            }
+
+    .clear-fix {
+      clear: both;
+      content: "";
+    }
+
+
