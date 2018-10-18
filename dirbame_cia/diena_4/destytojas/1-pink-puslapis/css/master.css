@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+header {
+    height: 100px;
+}
+.virsutine-sekcija {
+    background-color: pink;
+    height: 60px;
+}
+.paieska {
+    float: left;
+}
+/* ------NAV-------- */
+nav {
+    float: left;
+    width: 60%;
+    height: 60px;
+}
+    ul {
+        padding-left: 0;
+    }
+        li {
+            float: left;
+            list-style-type: none;
+            /* width: 25%; */
+        }
+/* ------END   NAV----- */
+.fonas-green {
+    background-color: green;
+}
+.fonas-grey {
+    background-color: #c3c3c3;
+}
+.fonas-orange {
+    background-color: orange;
+}
