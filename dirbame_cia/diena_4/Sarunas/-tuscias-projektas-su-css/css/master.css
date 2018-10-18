@@ -1,0 +1,101 @@
+html {
+  background-color: #c1c1c1;
+}
+body {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fonas-red {
+    background-color: red;
+}
+.fonas-green {
+  background-color: green;
+}
+.fonas-grey {
+  background-color: grey;
+}
+.fonas-orange {
+  background-color: orange;
+}
+.clear-fix{
+  clear:both;
+  content:"";
+}
+header {
+  min-height: 120px;
+
+
+}
+main{
+  width: 70%;
+  float: left;
+  background-color: white;
+}
+.wrapper {
+  overflow: hidden;
+}
+header, .wrapper {
+  margin-bottom: 2%;
+}
+aside {
+  width: 28%;
+  margin-left: 2%;
+  float:left;
+  background-color: pink;
+  padding-bottom: 100%;
+  margin-bottom: -100%;
+}
+
+
+  }
+  button {
+    padding: 10px 20px;
+    border: none;
+  }
+/*---- nav ----  */
+nav {
+  float: left;
+  width: 50%;
+  height: 60px;
+}
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  list-style-type: none;
+  width: 25%;
+  text-align: center;
+  margin-top: 3px;
+  text-transform: uppercase;
+
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*--- end   nav ---  */
+h1 {
+  color: red;
+  font-family: 'Mali', cursive;
+}
+
+.hight {
+  height: 100px;
+}
+.height {
+  height: 300px;
+}
+.top-section {
+background-color: pink;
+height: 60px;
+  }
+  .search {
+    float: left;
+    margin-top: 20px;
+  }
+  .search input {
+    padding-left: 20px;
