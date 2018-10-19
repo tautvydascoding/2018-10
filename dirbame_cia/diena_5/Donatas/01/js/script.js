@@ -1,38 +1,31 @@
+var vardas = 'Tomas';
+var pavarde = 'Tomauskis';
+var atlyginimas = 1000;
+var amzius = 21;
+var salis = 'Lietuva';
+var miestas = 'Kaunas';
+var adresas = 'Kursiu g. 7';
+var pastas = 3000;
 
-// uzduotis
-
-let alga = 890;
-var puseAlgos;
-let psd = 9;
-let vsd = 24;
-let pensija = 2;
-var procentaiPsd;
-var procentaiVsd;
-var procentaiPensija;
-let algaIRankas;
-
-puseAlgos = alga /2;
-console.log( puseAlgos );
-
-function procentaiPsd( alga, psd ) {
-    return(alga/100)*psd;
+function printMetiniuPajamuDydis(){
+var metinesPajamos = atlyginimas * 12;
+console.log( 'metines mano pajamos: ' + metinesPajamos );
 }
-console.log(procentaiPsd(alga, psd)); // 80.10
 
-function procentaiVsd( puseAlgos, vsd ) {
-    return(puseAlgos/100)*vsd;
+function printAdress(){
+    var txt = adresas + ', ' + miestas + ', ' + pastas + ', ' + salis;
+    console.log( txt );
 }
-console.log(procentaiVsd( puseAlgos, psd)); // 40.05
 
-function procentaiPensija( alga, pensija ) {
-    return(alga/100)*pensija;
+printMetiniuPajamuDydis();
+printMetiniuPajamuDydis();
+printAdress();
+
+function spauzdintiTeksta ( manoTekstas ) {
+    console.log('ivestas tekstas yra: ' + manoTekstas);
 }
-console.log(procentaiPensija( alga, pensija )); // 17.8
 
-algaIRankas = alga - procentaiPsd - procentaiPensija - procentaiVsd;
-console.log( algaIRankas );
+spauzdintiTeksta('Tomas anksti keliasi rytais');
+var istorija = 'Raudonkpuraite kartais eina i miska';
+spauzdintiTeksta( istorija );
 
-// var algaIRankas = 890 - 80.10 - 40.05 - 17.8
-// console.log( algaIRankas );
-
-// function printVardas()
