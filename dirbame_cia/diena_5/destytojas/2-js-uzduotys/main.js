@@ -78,14 +78,29 @@ spausdintiTeksta( istorija );
 // 7 UZDUOTIS
 // F-ja kuri paskaiciuoja trikampio ilgaja krastine (Pitagoro teorema)
 // pitagoroTeorema(x, y)      x*x + y*y ir is visko istraukti sakti
+function pitagoroTeorema(x, y) {
+    // var trikampioIstriziane = Math.sqrt(  x*x + y*y );
+    // ARBA
+    var trikampioIstrizaine = Math.sqrt(   Math.pow(x, 2) + Math.pow(y, 2)  );
+    console.log( "trikampio istrizaine yra: " + trikampioIstrizaine);
+}
+pitagoroTeorema(2, 2);
+pitagoroTeorema(3, 2);
 
 // 8 UZDUOTIS
-// function atlyginimasPoMokesciu( atlyginimasANtPopieriaus) {
-//
-// }
-// atlyginimasPoMokesciu(890);  // Ievos
-// atlyginimasPoMokesciu(1450); // Martyno
-// atlyginimasPoMokesciu(2300); // Domo
+function atlyginimasPoMokesciu( atlyginimasANtPopieriaus, vardas) {
+    var PSD = 9;
+    var VSD = 24;
+    var moketiPSD = (atlyginimasANtPopieriaus * PSD / 100);
+    var moketiVSD = ((atlyginimasANtPopieriaus / 2) * VSD / 100);
+    var iRankas = atlyginimasANtPopieriaus - moketiPSD - moketiVSD;
+    // console.log( vardas + " sumoketi PSD: " + moketiPSD);
+    // console.log( vardas + " sumoketi moketiVSD: " + moketiVSD);
+    console.log(  vardas + " i rankas: " + iRankas);
+}
+atlyginimasPoMokesciu(1000, "Ievos");  // Ievos
+atlyginimasPoMokesciu(1450, "Martynas"); // Martyno
+atlyginimasPoMokesciu(2300, "Domas"); // Domo
 
 //==========================KOMANDINE (3-4h) Bootstrap && GIT=================
 // ant lentos
