@@ -1,0 +1,72 @@
+body{
+	font-family: 'Niramit', sans-serif;
+}
+
+
+header{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 60px;
+}
+
+div{
+	display: flex;
+	
+
+}
+article{
+	flex: 1;
+	margin: 20px 20px;
+	background: grey;
+	border: 2px solid black;
+}
+h2{
+	float: right;
+	text-align: center;
+	background: red;
+	width: 120px;
+	margin: 0;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+}
+p{
+	padding-top: 20px;
+}
+
+
+
+/*plancetems ir notebookams*/
+@media (max-width: 991px){
+
+div{
+	display: inline-block;
+	margin: 0 auto;
+}
+article{
+	width: 44%;
+	float: left;
+	
+	}
+.last{
+	width: 94%;
+}
+
+}
+
+
+/*telefonams*/
+@media (max-width: 520px){
+div{
+	display: block;
+
+}
+article{
+	width: 100%;
+	margin: 5px auto;
+	
+}
+.last{
+	width: 100%;
+}
+}
