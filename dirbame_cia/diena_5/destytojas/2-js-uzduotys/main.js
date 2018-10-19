@@ -28,7 +28,7 @@ function printVardasPavardeAmzius() {
     console.log( tekstas );
     // ARBA
     // console.log(  vardas + " " + pavarde + " " + amzius );
-} 
+}
 printVardasPavardeAmzius(); // Paleidimas f-jos
 printVardasPavardeAmzius(); // Paleidimas f-jos
 printVardasPavardeAmzius(); // Paleidimas f-jos
@@ -38,11 +38,27 @@ printVardasPavardeAmzius(); // Paleidimas f-jos
 //  3 UZDUOTIS
 // sukurti funkcija "printMetinisPajamuDydis()" ,
 // kuri  atspausdina i konsole suma 12 atlyginimu (vienas atlyginimas yra lygus "uzduotis 1" kintamajam - "atlyginimas")
-
+function  printMetinisPajamuDydis() {
+    var metinesPajamos = atlyginimas * 12;
+    console.log( "metine mano pajamos:" + metinesPajamos );
+    // console.log( "metine mano pajamos:", metinesPajamos, "tadas" );
+}
+printMetinisPajamuDydis(); // issaukem
+printMetinisPajamuDydis(); // issaukem
 
 //  4 UZDUOTIS
 // A) sukurti kintamuosius:  salis, miestas, adresas, pastoKodas
 // B) sukurti f-ja "printAddressData()",  kuri atspausdina i konsole visus siuos kintamuosius
+var salis = "USA";
+var miestas = "Wasingtonas";
+var adresas = "black str. 2";
+var pastoKodas = "AD45321";
+function  printAdresasPilnas() {
+    var txt = adresas + ", " + miestas + ", " + pastoKodas + ", " + salis;
+    console.log(  txt  );
+}
+printAdresasPilnas();
+
 
 // ---- advance-----
 //  5 UZDUOTIS
@@ -50,11 +66,26 @@ printVardasPavardeAmzius(); // Paleidimas f-jos
 //  kuri atspausdina i konsole "x" reiksmes
 // iskviesti f-ja ir vietoj x irasyti koki nors teksta pvz: printTekstas( "Jokubo istorijos");
 
+function  spausdintiTeksta( manoTekstas ) {
+    console.log( "ivestas tekstas yra: " + manoTekstas );
+}
+spausdintiTeksta("Tomas anksti keliasi rytais"); // String - "Tomas anksti keliasi rytais"
+// ARBA
+var istorija = "Raudonkepuraite kartasi eina i miska"; // String
+spausdintiTeksta( istorija );
 
 
 // 7 UZDUOTIS
 // F-ja kuri paskaiciuoja trikampio ilgaja krastine (Pitagoro teorema)
-// pitagoroTeorema(x, y)      x*x + y*y
+// pitagoroTeorema(x, y)      x*x + y*y ir is visko istraukti sakti
+
+// 8 UZDUOTIS
+// function atlyginimasPoMokesciu( atlyginimasANtPopieriaus) {
+//
+// }
+// atlyginimasPoMokesciu(890);  // Ievos
+// atlyginimasPoMokesciu(1450); // Martyno
+// atlyginimasPoMokesciu(2300); // Domo
 
 //==========================KOMANDINE (3-4h) Bootstrap && GIT=================
 // ant lentos
