@@ -109,13 +109,13 @@ pitagoroTeorema();
 
 // 8 UZDUOTIS
 
-function atlyginimasPoMokesciu (atlyginimasAntPopieriaus){
+function atlyginimasPoMokesciu (atlyginimasAntPopieriaus, vardas){
   var atlyginimas = atlyginimasAntPopieriaus;
   var psd = atlyginimas * 0.09; // %
   var vsd = atlyginimas / 2 * 0.24; // %
   var iRankas = atlyginimas - (psd + vsd);
-  console.log("Atlyginimas po mokesciu bus :" + " " + iRankas + "eur");
+  console.log(vardas + " " + "po mokesciu, atlyginimo gauna :" + " " + iRankas + "eur");
 }
-atlyginimasPoMokesciu(890);
-atlyginimasPoMokesciu(1450);
-atlyginimasPoMokesciu(2300);
+atlyginimasPoMokesciu(890, "Ieva");
+atlyginimasPoMokesciu(1450, "Tomas");
+atlyginimasPoMokesciu(2300, "Martynas");
