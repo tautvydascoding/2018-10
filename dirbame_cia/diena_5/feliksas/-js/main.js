@@ -1,6 +1,57 @@
 console.log(   "Labas"  );
 
 
+
+
+var miestas = "Kaunas";
+console.log( "miestas" );
+
+var salis = "Lietuva";
+console.log( "salis" );
+
+tekstas = miestas + salis;
+console.log( miestas + salis );
+
+
+
+
+var atlyginimasAntPopieriaus = 890;
+console.log( 890 );
+var psd = 9;
+console.log( 9 );
+var vsd = 24;
+console.log( 24 );
+
+
+
+tekstas = atlyginimasAntPopieriaus + psd + vsd;
+console.log( atlyginimasAntPopieriaus + psd +vsd );
+
+
+
+
+var vardas = "jonas";
+console.log( "jonas" );
+var pavarde = "jonaitis";
+console.log( "jonaitis" );
+var metai = 24;
+console.log( "metai" );
+var atlyginimas = 2400;
+console.log( 2400 );
+
+console.log( vardas +" " +pavarde +" "+ metai +" "+ atlyginimas );
+
+
+
+function printvardaspavardeamziusmetai() {
+
+
+console.log( vardas +" " +pavarde +" "+ metai +" "+ atlyginimas  );
+
+
+}
+
+
 //  1 UZDUOTIS
 // sukurti kintamuosius (ir jiems priskirti reiksmes):
 // vardas, pavarde, amzius, atlyginimas
@@ -38,27 +89,15 @@ printVardasPavardeAmzius(); // Paleidimas f-jos
 //  3 UZDUOTIS
 // sukurti funkcija "printMetinisPajamuDydis()" ,
 // kuri  atspausdina i konsole suma 12 atlyginimu (vienas atlyginimas yra lygus "uzduotis 1" kintamajam - "atlyginimas")
-function  printMetinisPajamuDydis() {
-    var metinesPajamos = atlyginimas * 12;
-    console.log( "metine mano pajamos:" + metinesPajamos );
-    // console.log( "metine mano pajamos:", metinesPajamos, "tadas" );
-}
-printMetinisPajamuDydis(); // issaukem
-printMetinisPajamuDydis(); // issaukem
+
+
+
+
+
 
 //  4 UZDUOTIS
 // A) sukurti kintamuosius:  salis, miestas, adresas, pastoKodas
 // B) sukurti f-ja "printAddressData()",  kuri atspausdina i konsole visus siuos kintamuosius
-var salis = "USA";
-var miestas = "Wasingtonas";
-var adresas = "black str. 2";
-var pastoKodas = "AD45321";
-function  printAdresasPilnas() {
-    var txt = adresas + ", " + miestas + ", " + pastoKodas + ", " + salis;
-    console.log(  txt  );
-}
-printAdresasPilnas();
-
 
 // ---- advance-----
 //  5 UZDUOTIS
@@ -66,26 +105,11 @@ printAdresasPilnas();
 //  kuri atspausdina i konsole "x" reiksmes
 // iskviesti f-ja ir vietoj x irasyti koki nors teksta pvz: printTekstas( "Jokubo istorijos");
 
-function  spausdintiTeksta( manoTekstas ) {
-    console.log( "ivestas tekstas yra: " + manoTekstas );
-}
-spausdintiTeksta("Tomas anksti keliasi rytais"); // String - "Tomas anksti keliasi rytais"
-// ARBA
-var istorija = "Raudonkepuraite kartasi eina i miska"; // String
-spausdintiTeksta( istorija );
 
 
 // 7 UZDUOTIS
 // F-ja kuri paskaiciuoja trikampio ilgaja krastine (Pitagoro teorema)
-// pitagoroTeorema(x, y)      x*x + y*y ir is visko istraukti sakti
-
-// 8 UZDUOTIS
-// function atlyginimasPoMokesciu( atlyginimasANtPopieriaus) {
-//
-// }
-// atlyginimasPoMokesciu(890);  // Ievos
-// atlyginimasPoMokesciu(1450); // Martyno
-// atlyginimasPoMokesciu(2300); // Domo
+// pitagoroTeorema(x, y)      x*x + y*y
 
 //==========================KOMANDINE (3-4h) Bootstrap && GIT=================
 // ant lentos
