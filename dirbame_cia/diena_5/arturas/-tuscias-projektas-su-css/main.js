@@ -17,6 +17,7 @@ console.log(typeof(amzius));
 function printBendras (){
   return console.log(vardas+pavarde+amzius);
 }
+//----atlyginimai------//
 printBendras();
 console.log("Atlyginis i rankas:" + irankas);
  //*metinis atlyginims  8437.2EU
