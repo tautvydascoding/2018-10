@@ -1,4 +1,5 @@
 console.log("Labas");
+//*---------Random----------*//
 var vardas="ARTURAS";
 var pavarde="UTAKIS";
 var amzius= 600;
