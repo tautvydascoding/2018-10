@@ -114,7 +114,7 @@ function atlyginimasPoMokesciu (atlyginimasAntPopieriaus){
   var psd = atlyginimas * 0.09; // %
   var vsd = atlyginimas / 2 * 0.24; // %
   var iRankas = atlyginimas - (psd + vsd);
-  console.log(iRankas);
+  console.log("Atlyginimas po mokesciu bus :" + " " + iRankas + "eur");
 }
 atlyginimasPoMokesciu(890);
 atlyginimasPoMokesciu(1450);
