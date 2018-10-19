@@ -27,8 +27,8 @@ console.log( tekstas  );
 // sukikurti 4-5 kintamuosius
 // ir apskaiciuoti atlyginima i rankas
 
-
-
+var atsakymas = 703;
+console.log("I rankas gausite: " + atsakymas);
 
 
 
