@@ -1,0 +1,39 @@
+{
+  box-sizing: border-box;
+}
+
+.full-height {
+  height: 100%;
+  display: flex;
+  flex: 1;
+}
+
+.height-50 {
+  height: 50px;
+}
+
+.height-10proc {
+  height: 10%;
+}
+
+.height-15proc {
+  height: 15%;
+}
+
+.height-150 {
+  height: 150px;
+}
+
+html, body {
+  display: flex;
+  background-color: white;
+  flex: auto;
+  height: 100%;
+  margin: 5px;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 73%;
+}

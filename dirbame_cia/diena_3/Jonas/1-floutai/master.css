@@ -1,0 +1,42 @@
+article {
+  float: left;
+}
+
+.plotis-30 {
+  width: 30%;
+  margin: 10px;
+}
+
+.fonas-green {
+  background-color: green;
+}
+
+.fonas-pink {
+  background-color: pink;
+}
+
+.fonas-red {
+  background-color: red;
+
+}
+
+.plotis-100 {
+  width: 100%
+}
+
+.fonas-geltonas {
+  background-color: yellow;
+}
+
+.plotis-45 {
+  width: 45%;
+  margin: 10px;
+}
+
+.spalva-zalia {
+  background-color: green;
+}
+
+section {
+  width: 50%;
+}
