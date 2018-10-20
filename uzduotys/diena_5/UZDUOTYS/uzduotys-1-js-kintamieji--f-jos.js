@@ -32,7 +32,7 @@
 
 // 7 UZDUOTIS
 // F-ja kuri paskaiciuoja trikampio ilgaja krastine (Pitagoro teorema)
-// pitagoroTeorema(x, y)      x*x + y*y
+// pitagoroTeorema(x, y)      x*x + y*y ir is visko istraukti sakti (js Math.sqrt())
 
 //==========================KOMANDINE (3-4h) Bootstrap && GIT=================
 // ant lentos
