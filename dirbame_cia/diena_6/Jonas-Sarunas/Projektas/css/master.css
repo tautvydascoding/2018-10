@@ -34,6 +34,24 @@ article {
 aside {
   background-color: lightgrey;
 }
+.mygtukas button:hover {
+color: lightgrey;
+background-color: darkgrey;
+border-radius: 80%;
+}
+footer {
+  height: 100px;
+
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  font-size: 25;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
 
 
 
