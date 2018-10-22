@@ -162,3 +162,4 @@ console.log(atlyginimasAntPopieriaus, "yra":);
 } 
 atlyginimasIRankas (1000, "ieva");
 atlyginimasIRankas (1450, "Martynas" );
+
