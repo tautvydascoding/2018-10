@@ -77,11 +77,11 @@ console.log("ievos, antano ir karolio pelnas: " + ieva + " " + antanas + " " + k
 
 function getPazimiuVidurkis2(x1, x2, x3, x4, x5) {
   var vidurkis = (x1 + x2 + x3 + x4 + x5) / 5;
-  console.log(vidurkis);
+
   return vidurkis;
 }
 getPazimiuVidurkis2(4 , 5 , 5 , 5 , 5);
-
+console.log(vidurkis);
 
 
 // 5 UZDUOTIS
