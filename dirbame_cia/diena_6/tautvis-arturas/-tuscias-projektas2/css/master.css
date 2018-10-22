@@ -13,3 +13,35 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
+.spalva-red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.navbar-brand
+{
+    position: relative;
+    background: url(https://media.glassdoor.com/sqll/9079/google-squarelogo-1441130773284.png/images/logo.png);
+    width: 50px;
+    left: 10px;
+}
+.navbar-brand1
+{
+    position: relative;
+    background: url(https://image.shutterstock.com/image-vector/horse-logo-emblem-template-mascot-260nw-273059870.jpg);
+    width: 50px;
+    left: 10px;
+}
+.idesne{
+  float: right;
+}
+.betarpu{
+  margin-right: -5px;
+}
