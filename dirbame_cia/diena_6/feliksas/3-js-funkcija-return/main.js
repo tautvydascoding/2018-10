@@ -20,3 +20,17 @@ console.log( getVardas() );
 document.querySelector('h1').innerHTML = getVardas();
 // arba
 document.querySelector('h1').innerHTML += " <br> Sveiki, " + getVardas();
+
+
+
+
+function getPelnas() {
+ var pajamos = 1250;
+ var islaidos = 1350;
+ var pelnas = pajamos - islaidos;
+ return pelnas;
+
+
+}
+var p = getPelnas();
+console.log( "pelnas:" + p);
