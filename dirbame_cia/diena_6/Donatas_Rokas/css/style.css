@@ -48,30 +48,38 @@
 
 .heading {
     margin-top: 20px;
+    margin-bottom: 20px;
     justify-content: center;
     color: #01579b;
 }
 
-.r_1 {
+.row_1 {
     justify-content: flex-start;
+}
+
+.colum_1 {
     align-items: flex-start;
-    border: #005b9f solid 1px;
 }
 
-.r_2 {
+.row_2 {
     justify-content: center;
-    align-items: center;
-    border: #005b9f solid 1px;
 }
 
-.r_3 {
+.colum_2 {
+    align-items: center;
+}
+
+.row_3 {
     justify-content: flex-end;
+}
+
+.colum_3 {
     align-items: flex-end;
-    border: #005b9f solid 1px;
 }
 
 article h2 {
     background-color: #90caf9;
     text-align: center;
-    padding: 3px;
+    margin: 5px;
+    padding: 5px;
 }
