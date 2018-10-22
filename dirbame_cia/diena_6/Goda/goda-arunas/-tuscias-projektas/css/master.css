@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 lygiavimas-
+>>>>>>> 71d0666f7a6e61ab50ddcde1192512dea01283ff
 
 
 .aukstis-100 {
@@ -14,6 +17,15 @@ lygiavimas-
     height: 500px;
 }
 
+<<<<<<< HEAD
+.mygtuko-pastatymas {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+=======
 .miskas {
     height: 100px;
 }
+>>>>>>> 71d0666f7a6e61ab50ddcde1192512dea01283ff

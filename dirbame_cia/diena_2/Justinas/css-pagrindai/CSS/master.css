@@ -1,3 +1,79 @@
 h1 {
   color: red;
 }
+
+article {
+  display: inline-block;
+}
+
+/* section .plotis-50 {
+  width: 45%
+}
+*/
+
+.plotis-33 {
+width: 33%;
+height: 300px;
+}
+
+/*.fonas-pilkas {
+background-color: #f1f1f1;
+}*/
+
+.fonas-melynas {
+  background-color: blue;
+}
+
+.fonas-zalias {
+  background-color: green;
+}
+
+.fonas-raudona {
+  background-color: red;
+}
+
+/*.aukstis-200 {
+min-height: 200px;
+}*/
+
+.raudona {
+color: red;
+}
+
+.zalia {
+  color: green;
+}
+
+.melyna {
+  color: blue;
+}
+
+p {
+  text-align: center;
+  font-size: 12px;
+}
+
+article h2 {
+  font-size: 30px;
+}
+
+article p {
+  font-size: 20px
+}
+/*
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  text-shadow: 0px 1px 20px black;
+}
+
+*/
+
+h2:hover{
+  color: white;
+  background-color: black;
+}
