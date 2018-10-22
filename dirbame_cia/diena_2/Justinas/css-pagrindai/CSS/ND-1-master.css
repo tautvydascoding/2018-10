@@ -1,0 +1,66 @@
+article {
+  display: inline-block;
+}
+.fonas-rudas {
+  background-color: #3E2723;
+}
+.fonas-melynas {
+  background-color: blue;
+}
+.fonas-zalias {
+  background-color: green;
+}
+.fonas-raudona {
+  background-color: red;
+}
+.fonas-ruzavas {
+  background-color: pink;
+}
+.fonas-geltonas {
+  background-color: #FFFF00;
+}
+.fonas-violetinis {
+  background-color: #7CB342;
+}
+.fonas-zalsvas {
+  background-color: #9C27B0;
+}
+.fonas-melsvas {
+  background-color: #009688;
+}
+.fonas-rusvas {
+  background-color: #D84315;
+}
+.raudona {
+color: red;
+}
+.zalia {
+  color: green;
+}
+.melyna {
+  color: blue;
+}
+.ruda {
+  color: #3E2723;
+}
+.ruzava {
+  color: pink;
+}
+.geltona {
+  color: #FFFF00;
+}
+.violetine {
+  color: #7CB342;
+}
+.zalsva {
+  color: #9C27B0;
+}
+.rusva {
+  color: #D84315;
+}
+.melsva {
+  color: #009688;
+}
+article {
+  border: solid 2px #333;
+}
