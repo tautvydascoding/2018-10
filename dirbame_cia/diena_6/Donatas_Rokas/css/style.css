@@ -83,3 +83,36 @@ article h2 {
     margin: 5px;
     padding: 5px;
 }
+
+.mid_container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.mid_bg {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: #424242 solid 1px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.overlay:before {
+    content: ' ';
+    display: block;
+    height: 50%;
+}
+
+.waiting {
+    margin-top: 50px;
+    text-align: center;
+}
