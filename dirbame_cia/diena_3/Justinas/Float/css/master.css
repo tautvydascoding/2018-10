@@ -1,0 +1,57 @@
+div {
+  display: inline-block;
+}
+
+div.border-pink {
+  border: solid 2px pink;
+}
+
+div.border-blue {
+  border: solid 2px blue;
+}
+
+div.border-yellow {
+  border: solid 2px yellow;
+}
+
+.plotis-30 {
+width: 30%;
+}
+
+.plotis-45 {
+width: 45%;
+}
+
+.plotis-100 {
+width: 90%;
+}
+
+.aukstis-150 {
+  height: 150px;
+}
+
+.float {
+float: none;
+width: 30%;
+}
+
+.clear-fix {
+  clear:both;
+  content: "";
+}
+
+.fonas-blue {
+background-color: blue;
+}
+
+.fonas-green {
+  background-color: green;
+}
+
+.fonas-pink {
+  background-color: pink;
+}
+
+.fonas-yellow {
+  background-color: yellow;
+}
