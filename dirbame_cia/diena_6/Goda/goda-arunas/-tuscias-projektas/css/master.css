@@ -12,3 +12,10 @@
 .aukstis-500 {
     height: 500px;
 }
+
+.mygtuko-pastatymas {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
