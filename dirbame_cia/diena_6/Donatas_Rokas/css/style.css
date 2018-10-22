@@ -48,6 +48,7 @@
 
 .heading {
     margin-top: 20px;
+    margin-bottom: 20px;
     justify-content: center;
     color: #01579b;
 }
@@ -58,7 +59,6 @@
 
 .colum_1 {
     align-items: flex-start;
-    border: #005b9f solid 1px;
 }
 
 .row_2 {
@@ -67,7 +67,6 @@
 
 .colum_2 {
     align-items: center;
-    border: #005b9f solid 1px;
 }
 
 .row_3 {
@@ -76,7 +75,6 @@
 
 .colum_3 {
     align-items: flex-end;
-    border: #005b9f solid 1px;
 }
 
 article h2 {
