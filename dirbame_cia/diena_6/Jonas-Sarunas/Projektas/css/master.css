@@ -1,19 +1,44 @@
-<<<<<<< HEAD
-.aukstis-100 {
-  height: 100px;
-}
-.aukstis-500 {
-  height: 500px;
-}
+/* SARUNAS START //////////////////////// */
 img {
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 150px;
+  width: 200px;
 }
-.col-1 {
-  height: 33%;
+.first {
+  text-align: center;
+}
+.second {
+  text-align: left;
+  margin-left: 25%;
+}
+.third {
+  margin-left: 35%;
+}
+.fourth {
+  margin-left: 25%;
+}
+.fifth {
+  margin-left: 7%;
+}
+.sixth {
+  margin-left: 8%;
+}
+article {
+  background-image: url(https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/vehicles/leaf/B12P/pushes/new-leaf_range-page-rhd.jpg.ximg.l_full_m.smart.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+aside {
+  background-color: lightgrey;
+}
 
-}
+
+
+
+
 =======
 /* JONAS////////////////////////////// */
 
