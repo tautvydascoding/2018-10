@@ -149,3 +149,16 @@ function atlyginimasPoMokesciu ( atlyginimasAntPopieriaus, vardas){
 atlyginimasPoMokesciu (1000, "Ieva");
 atlyginimasPoMokesciu (1450, "Martynas");
 atlyginimasPoMokesciu (2300, "Domas" );
+
+// koks atlyginimas ant popieriaus, jei i rankas:
+// atlyginimasIRankas (1000, "ieva");
+// atlyginimasIRankas (1450, "Martynas");
+
+function atlyginimasIRankas (atlyginimasAntPopieriaus, vardas){
+  var psd = 0.09;
+  var vsd = 0.24;
+  var atlyginimasAntPopieriaus = atlyginimasIRankas + atlyginimasIRankas*psd + atlyginimasIRankas*vsd; 
+console.log(atlyginimasAntPopieriaus, "yra":);
+} 
+atlyginimasIRankas (1000, "ieva");
+atlyginimasIRankas (1450, "Martynas" );
