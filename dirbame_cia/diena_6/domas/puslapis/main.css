@@ -1,0 +1,61 @@
+.foto{
+	height: 150px;
+  width: 150px;
+  background-color: #555;
+  background-image: url(https://pbs.twimg.com/profile_images/730419941489426432/IbeoaDwa.jpg);
+  background-position: bottom 200px center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.first{
+	background: grey;
+}
+
+
+.left-foto, .right-foto{
+	height: 400px;
+	background: #677484;
+}
+
+.text{
+	background: #bec2c6;
+}
+
+.footer{
+	
+	background: #799bce;
+	height: 100px;
+}
+
+/*.ads{
+	position: absolute;
+	top: 0;
+	right: 0px;
+	background: black;
+
+}*/
+
+.footer-text{
+	/*display: inline-block;*/
+	color: white;
+	width: 70%;
+	float: left;
+}
+
+.col-12{
+	padding-right: 0;
+}
+
+.advert{
+	/*display: inline-block;*/
+	float: left;
+	width:30%;
+	height: 75px;
+	background: #704677;
+}
+
+img{
+	height: 15%;
+	width: 15%;
+}
