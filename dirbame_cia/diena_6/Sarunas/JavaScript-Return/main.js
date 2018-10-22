@@ -29,11 +29,12 @@ document.querySelector('h1').innerHTML += " <br> Sveiki, " + getVardas();
 // patikrinti ar veikia f-ja
 
 function getVardasPavarde() {
-  var vardas = "Antanas";
-  var pavarde = "Tomauskas";
-  return vardas  +  pavarde;
+  var vard = "Antanas"; // locas kintamasis
+  var pavard = "Tomauskas"; //local kintamasis
+  return vard  +  pavard;
 }
-console.log(getVardasPavarde());
+var x = getVardasPavarde();
+console.log(x);
 
 
 
@@ -62,7 +63,10 @@ function getPelnas1(pajamos, nuostoliai) {
 var pelnas = pajamos - nuostoliai;
 return pelnas;
 }
-console.log(getPelnas1(12500, 7500));
+var ieva = getPelnas1(1000, 500);
+var antanas = getPelnas1(500, 50);
+var karolis = getPelnas1(1200, 300);
+console.log("ievos, antano ir karolio pelnas: " + ieva + " " + antanas + " " + karolis);
 
 
 
