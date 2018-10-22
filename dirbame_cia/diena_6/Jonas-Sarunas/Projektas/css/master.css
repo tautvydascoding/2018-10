@@ -1,5 +1,7 @@
 
 =======
+/* JONAS////////////////////////////// */
+
 /* GLOBAL */
 * {
   padding: 0;
@@ -72,11 +74,12 @@ button {
 
 /* IMAGE ROUND */
 
-
 .round {
   border-radius: 50px;
   margin: 0 45%;
   margin-top: 10%;
 }
 /* IMAGE ROUND END */
+
+/* JONAS END////////////////////////// */
 >>>>>>> d1dc6eb851d479b2816395c39880d7b29420e4b3
