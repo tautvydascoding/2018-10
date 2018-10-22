@@ -1,6 +1,9 @@
 <<<<<<< HEAD
-lygiavimas-
 =======
+lygiavimas-
+>>>>>>> 71d0666f7a6e61ab50ddcde1192512dea01283ff
+
+
 .aukstis-100 {
     height: 100px;
 }
@@ -13,4 +16,16 @@ lygiavimas-
 .aukstis-500 {
     height: 500px;
 }
->>>>>>> 0f0a3bb715f176c7d62741d9068fa9ddad9a7716
+
+<<<<<<< HEAD
+.mygtuko-pastatymas {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+=======
+.miskas {
+    height: 100px;
+}
+>>>>>>> 71d0666f7a6e61ab50ddcde1192512dea01283ff
