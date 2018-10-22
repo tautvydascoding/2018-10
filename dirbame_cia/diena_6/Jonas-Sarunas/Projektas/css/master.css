@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .aukstis-100 {
   height: 100px;
 }
@@ -13,3 +14,84 @@ img {
   height: 33%;
 
 }
+=======
+/* GLOBAL */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #EAEDED;
+}
+
+/* HEADER */
+
+ul li {
+  width: 30%;
+  display: inline-block;
+}
+.reklama {
+  float: right;
+}
+
+/* HEADER END */
+
+/* ATRASTES IR PARAGRAFAI */
+h1 {
+  text-align: center;
+}
+
+.conteineris {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+}
+.paragrafas1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: #AAAAAA;
+}
+.paragrafas2 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-color: #AAAAAA;
+}
+.paragrafas3 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  background-color: #AAAAAA;
+}
+
+/* ATRASTES IR PARAGRAFAI END */
+
+/* BACKGROUND IMAGE */
+.background {
+  background-image: url(https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/vehicles/leaf/B12P/pushes/new-leaf_range-page-rhd.jpg.ximg.l_full_m.smart.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #7FDBFF;
+  border: none;
+}
+/* BACKGROUND IMAGE END */
+
+/* IMAGE ROUND */
+
+
+.round {
+  border-radius: 50px;
+  margin: 0 45%;
+  margin-top: 10%;
+}
+/* IMAGE ROUND END */
+>>>>>>> d1dc6eb851d479b2816395c39880d7b29420e4b3
