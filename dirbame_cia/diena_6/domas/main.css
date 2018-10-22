@@ -1,0 +1,6 @@
+.img{
+	background-image: linear-gradient(to bottom, orange, yellow);
+	
+	background-repeat: no-repeat;
+	background-position: 100%, center;
+}
