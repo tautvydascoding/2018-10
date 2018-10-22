@@ -46,4 +46,17 @@ console.log(   "Labas"  );
 
 
 document.querySelector('h1').innerHTML = " <b>Antraste</b>";
+document.querySelectorAll('h1') [2].innerHTML = " <b> Pakeistas su All </b>";
 
+
+var aukstis = document.querySelector('h1').clientHeight;   
+console.log('h1 ausktis yra:' + aukstis);
+    
+var aukstis = document.querySelector('h1').offsetHeight;
+console.log('h1 ausktis su remeliu yra:' + aukstis);
+
+document.querySelector("h1").style.height = "500px";
+
+document.querySelector("h1").style.width = "30%";
+
+// document.querySelector("h1").style.background.color = "red";
