@@ -66,6 +66,8 @@ pre {
  */
 
 a {
+  text-align: center;
+  float: left;
   background-color: transparent;
 }
 
