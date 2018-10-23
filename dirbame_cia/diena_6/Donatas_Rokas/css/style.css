@@ -42,8 +42,6 @@
     color: #bbdefb;
 }
 
-/* ----- meniu pabaiga ----- */
-
 .r_logo {
     text-align: right;
     height: 60px;
@@ -51,14 +49,16 @@
     margin-right: 0px;
 }
 
+/* ----- meniu pabaiga ----- */
+
+/* ----- teksto pradzia ----- */
+
 .heading {
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: center;
     color: #01579b;
 }
-
-/* ----- teksto pradzia ----- */
 
 .row_1 {
     justify-content: flex-start;
