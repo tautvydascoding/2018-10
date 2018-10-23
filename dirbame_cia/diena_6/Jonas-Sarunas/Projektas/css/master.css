@@ -1,0 +1,179 @@
+/* SARUNAS START //////////////////////// */
+.img img {
+  border-radius: 50%;
+  height: 150px;
+  width: 200px;
+}
+.first {
+  text-align: center;
+}
+.second {
+  text-align: left;
+  margin-left: 25%;
+}
+.third {
+  margin-left: 35%;
+}
+.fourth {
+  margin-left: 25%;
+}
+.fifth {
+  margin-left: 7%;
+}
+.sixth {
+  margin-left: 8%;
+}
+article {
+  background-image: url(https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/vehicles/leaf/B12P/pushes/new-leaf_range-page-rhd.jpg.ximg.l_full_m.smart.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+aside {
+  background-color: lightgrey;
+}
+.mygtukas button:hover {
+color: lightgrey;
+background-color: darkgrey;
+border-radius: 80%;
+}
+footer {
+  height: 100px;
+
+}
+.nav li {
+  display: flex;
+  flex-direction: column;
+  font-size: 25;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+}
+.cont {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+text-align: center;
+margin-left: 15%;
+margin-right: 15%;
+height: 20%;
+
+}
+.para1 {
+  grid-column: 1/3;
+  grid-row: 3/3;
+  background-color: #AAAAAA;
+}
+.para2 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-color: #AAAAAA;
+}
+.para3 {
+  grid-column: 3/3;
+  grid-row: 1/3;
+  background-color: #AAAAAA;
+}
+
+.logo img {
+  float: right;
+  height: 50%;
+}
+
+/* //////////----------- SARUNAS CSS END ---------------//////  */
+
+
+
+
+
+
+=======
+/* JONAS////////////////////////////// */
+
+/* GLOBAL */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #EAEDED;
+}
+
+/* HEADER */
+
+ul li {
+  width: 30%;
+  display: inline-block;
+}
+.reklama {
+  float: right;
+}
+
+/* HEADER END */
+
+/* ATRASTES IR PARAGRAFAI */
+h1 {
+  text-align: center;
+}
+
+.conteineris {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+
+
+}
+.paragrafas1 {
+  grid-column: 1/1;
+  grid-row: 1/1;
+  background-color: #AAAAAA;
+
+}
+.paragrafas2 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-color: #AAAAAA;
+}
+.paragrafas3 {
+  grid-column: 3/3;
+  grid-row: 3/3;
+  background-color: #AAAAAA;
+
+}
+
+/* ATRASTES IR PARAGRAFAI END */
+
+/* BACKGROUND IMAGE */
+.background {
+  background-image: url(https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/vehicles/leaf/B12P/pushes/new-leaf_range-page-rhd.jpg.ximg.l_full_m.smart.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #7FDBFF;
+  border: none;
+}
+/* BACKGROUND IMAGE END */
+
+/* IMAGE ROUND */
+
+.round {
+  border-radius: 50px;
+  margin: 0 50%;
+  margin-top: 10%;
+}
+/* IMAGE ROUND END */
+
+/* JONAS END////////////////////////// */
+>>>>>>> d1dc6eb851d479b2816395c39880d7b29420e4b3

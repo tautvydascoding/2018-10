@@ -1,0 +1,151 @@
+h1 {
+    color: red;
+}
+
+body{
+  text-align: center;
+  background-color: floralwhite;
+}
+.button{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+.border{
+  border-style: solid;
+}
+
+.white{
+  background-color: white;
+}
+.grey{
+  background-color: grey;
+}
+.coral{
+  background-color: coral;
+}
+.pink{
+  background-color: pink;
+}
+.gold{
+  background-color: gold;
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+<<<<<<< HEAD
+.spalva-red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.navbar-brand
+{
+    position: relative;
+    background: url(https://media.glassdoor.com/sqll/9079/google-squarelogo-1441130773284.png/images/logo.png);
+    width: 50px;
+    left: 10px;
+}
+.navbar-brand1
+{
+    position: relative;
+    background: url(https://image.shutterstock.com/image-vector/horse-logo-emblem-template-mascot-260nw-273059870.jpg);
+    width: 56px;
+    left: 10px;
+}
+.idesne{
+  float: right;
+}
+.betarpu{
+  margin-right: -5px;
+}
+.nuotrauka {
+width: 1140px;
+height:300px;
+}
+.virsus{
+  margin-top:auto;
+}
+.dydis {
+  margin-left: -15px;
+}
+=======
+/*-------defaultai----  */
+.apvalus{
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin:auto;
+}
+.wrapper{
+  display: grid;
+  max-width: 1200px;
+  margin: auto;
+  grid-gap: 1px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3,minmax(150px,auto));
+}
+.wrapper1{
+  display: grid;
+  width: 100%;
+  margin:auto;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(100px,auto);
+}
+.rek{
+  grid-column: 1/2;
+  background-image: url(images/reklama1.jpeg);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rek1{
+  grid-column: 2/3;
+}
+.wrapper2{
+  display: grid;
+  max-width: 1200px;
+  margin:auto;
+  grid-gap:1px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3,minmax(150px,auto));
+}
+.wrapper3{
+  display: grid;
+  max-width: 1200px;
+  margin:auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr minmax(50px,auto);
+}
+.home{
+  grid-column: 1/2;
+}
+.logo{
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+li{
+  list-style-type: none;
+}
+.icon{
+
+}
