@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+    color: red;
+}
+
+article {
+    float: left;
+    background-color: aqua;
+    width: 32%;
+
+
+    border-style: solid;
+    margin-left: 1%;
+}
+
+h2 {}
+
+
+
+
+.fonas-brown {
+    background-color: brown;
+}
+
+.fonas-red {
+    background-color: red;
+}
+
+.fonas-pink {
+    background-color: pink;
+}
+
+.center {
+    text-align: center;
+
+}
+
+.pozicija {
+    position: right;
+    left: 30px;
+}
