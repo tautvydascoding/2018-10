@@ -61,7 +61,7 @@
 /* ----- teksto pradzia ----- */
 
 .row_1 {
-    justify-content: flex-start;
+    ;
 }
 
 .colum_1 {
@@ -131,3 +131,64 @@ article h2 {
 }
 
 /* ----- vidurines foto ir mygtuko pabaiga ----- */
+
+
+.img img {
+    border-radius: 50%;
+    height: 150px;
+    width: 200px;
+  }
+  .first {
+    text-align: center;
+  
+  }
+  .second {
+    text-align: left;
+    margin-left: 25%;
+  }
+  .third {
+    margin-left: 35%;
+  }
+  .fourth {
+    margin-left: 25%;
+  }
+  .fifth {
+    margin-left: 7%;
+  }
+  .sixth {
+    margin-left: 8%;
+  }
+  article {
+    background-image: url(https://i.imgur.com/5XW2cTC.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  aside {
+    background-color: lightgrey;
+  }
+  .mygtukas button:hover {
+  color: lightgrey;
+  background-color: darkgrey;
+  border-radius: 80%;
+  }
+  footer {
+    height: 100px;
+  
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    font-size: 25;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  
+  
+  

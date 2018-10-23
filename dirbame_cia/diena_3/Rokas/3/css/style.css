@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bbb584;
+}
+
+section {
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-color: #afcdb3;
+    margin: 1%;
+    border: #000000 solid 1px;
+}
+
+.m1 {
+    width: 150px;
+    background-color: #79759c;
+    color: #ffecb3;
+    float: right;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center;
+    border-left: #000000 solid 1px;
+    border-bottom: #000000 solid 1px;
+}
+
+.m2 {
+    width: 150px;
+    background-color: #a19b99;
+    color: #ffccbc;
+    float: right;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center;
+    border-left: #000000 solid 1px;
+    border-bottom: #000000 solid 1px;
+}
+
+.m3 {
+    width: 150px;
+    background-color: #b4a09b;
+    color: #ffd0b0;
+    float: right;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center;
+    border-left: #000000 solid 1px;
+    border-bottom: #000000 solid 1px;
+}
+
+p {
+    padding: 20px;
+    padding-top: 60px;
+    text-align: justify;
+
+
+    h1 {
+
+        color: #870000;
+        text-align: center;
+    }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* tabletams */
+@media (max-width: 991px){
+    .sekcija1 {
+width:20%;
+
+    }
+
+ }
+
+   
+
+
+
+
+
+    /* iki tabletu */
+@media (max-width: 767px){
+
+
+
+
+}
+/* telefonams */
+@media (max_width: 576px) {
+
+
+
+}
+
+
