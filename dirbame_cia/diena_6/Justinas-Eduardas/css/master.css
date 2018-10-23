@@ -16,12 +16,6 @@
 .aukstis-600 {
     height: 600px;
   }
-header {
-  background-color: black;
-  width: 100%;
-  height: 100px;
-  text-align: center;
-}
 .img-1 {
   width: 4%;
   float: left;
@@ -66,8 +60,7 @@ header {
   right: 35%;
   top: 10%;
 }
-
-li {
+header li {
   list-style-type: none;
   float: left;
   margin-left:  30px;
@@ -103,29 +96,22 @@ nav {
         }
 /* ------END   NAV----- */
 button {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: grey;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
-img {
+.imgj {
   width: 100%;
   height: 100%;
-}
-.aukstis-100 {
-    height: 100px;
-}
-.aukstis-200 {
-    height: 200px;
-}
-.aukstis-400 {
-    height: 400px;
-}
-.aukstis-500 {
-    height: 500px;
-}
-.aukstis-600 {
-  height: 600px;
 }
 .log1 {
   width: 10%;
