@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-lygiavimas-
->>>>>>> 71d0666f7a6e61ab50ddcde1192512dea01283ff
-
 
 .aukstis-100 {
     height: 100px;
@@ -18,14 +13,101 @@ lygiavimas-
 }
 
 <<<<<<< HEAD
-.mygtuko-pastatymas {
-    display: flex;
-  align-items: center;
-  justify-content: center;
+h1 {
+    text-align: center;
 }
 
-=======
-.miskas {
-    height: 100px;
+h2 {
+    text-align: center;
 }
->>>>>>> 71d0666f7a6e61ab50ddcde1192512dea01283ff
+
+button {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: auto;
+    align: center;
+    text-align: center;
+}
+  .miskas { 
+    width: 100%;
+    height: 200px;
+    opacity: 0.3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}    
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+=======
+
+
+
+
+            
+.deze-tekstui {
+    /* display: box ; */
+    /* box-sizing: border-box; */
+    background-color: rgb(194, 32, 209);
+    text-align: justify
+    }
+
+
+.tekstas {
+    font-size: 15px;
+    width: 30%;
+}
+
+#desinen {
+    align-content: right;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.dviratis-mazas {
+    width: 60px;
+    height: 60px;
+    float: right;
+    padding: none;
+    margin: none;
+}
+
+.miskas {
+    height: 300px;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.knopkes-dezute {
+    display: table;
+    width: 100%;
+    height: 300px;
+}
+
+.knopke {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+>>>>>>> 65043c5ae4f10f182b0da6b245a7c76682c56c47
+}

@@ -6,21 +6,21 @@ console.log(   "Labas"  );
 // B) parasyti f-ja "getVardas()", kuri turi "return" zodeli ir grazina varda i iskveitimo vieta.
 // C) patikrinti ar veikia f-ja
 
-// var vardas = "Tomas";
-//
-// function getVardas(){
-//   return vardas;
-// }
-//
-// var tekstas = "<p>Raudonkepuraite daug keliavo ir sutiko" + getVardas() + "su kuriuo daug snekejosi</p>"
-//
-// console.log(tekstas);
-//
-// console.log(getVardas());
-//
-// document.querySelector('h1').innerHTML = getVardas();
-//
-// document.querySelector('h1').innerHTML += " <br> Sveiki, " + getVardas();
+var vardas = "Tomas";
+
+function getVardas(){
+  return vardas;
+}
+
+var tekstas = "<p>Raudonkepuraite daug keliavo ir sutiko" + getVardas() + "su kuriuo daug snekejosi</p>"
+
+console.log(tekstas);
+
+console.log(getVardas());
+
+document.querySelector('h1').innerHTML = getVardas();
+
+document.querySelector('h1').innerHTML += " <br> Sveiki, " + getVardas();
 
 // 2 UZDUOTIS
 // parasyti f-ja "getVardasPavarde()", kuri turi "return" zodeli ir grazina varda ir pavarde i iskveitimo vieta.
