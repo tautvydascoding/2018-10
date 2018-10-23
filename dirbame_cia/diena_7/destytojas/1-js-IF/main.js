@@ -1,34 +1,7 @@
-// =================if  teorija====================
-// if ( true ) {
-//     console.log("labas");
-// }
-
-// if (salyga) {
-//     // jei true
-//     //
-//     //
-// } else {
-//     // jei false
-// }
+console.log(   "Labas"  );
 
 
-// if ( salyga ) {
-//     // jei salyga tenkinama
-// }
-//
-// if ( salyga ) {
-//     // jei salyga tenkinama
-// } else {
-//     // jei salyga netenkinama  / priesingu atveju
-// }
-//
-// if (salyga) {
-//
-// } else if (salyga) {
-//
-// } else {
-//     // ?
-// }
+
 
 //=============IF====================
 // 0 UZDUOTIS
@@ -38,20 +11,42 @@
 // jeigu vardai sutampa, i konsole pranesti apie tai
 // jeigu vardai nesutampa - parasysi "vardai yra skirtingi"
 
+let salis;             // deklaracija - susikurei kintamaji
+let vardas1 = "Tomas"; // inicializacija - initialization // kintamajam  priskiri pradine rieksme
+let vardas2 = "Antanas";
+
+if (vardas1 == vardas2) {
+    console.log( vardas1, vardas2 , " abu vardai yra toki patys");
+} else {
+    console.log( vardas1, vardas2 , " abu vardai yra NEVIENODI!!!");
+}
+
 // B)
 // Jeigu vardas1 yra "Tomas" - pasisveikinti su juo
-
+if (vardas1 == "Tomas") {
+    console.log("vardas1 yra Tomas");
+}
 // C)
 // Patikrinti ar varda1 yra "Tomas", IR butinai vardas2  yra "Karolis"
-
+vardas1 = "Tomas";
+vardas2 = "Karolis";
+if (vardas1 == "Tomas" && vardas2 == "Karolis") {
+    console.log("vardai yra: Tomas ir Karolis");
+} else {
+    console.log("vardai NERA Tomas ir Karolis");
+}
 // D)
 // Patikrinti ar bent vienas is vardu "Tomas"
 // || - arba
-
+if (vardas1 == "Tomas" || vardas2 == "Tomas") {
+    console.log("vienas is vardu yra Tomas ( "+ vardas1 + vardas2);
+} else {
+    console.log("tarp vardu nera Tomo (" + vardas1 + vardas2);
+}
 
 // 1 UZDUOTIS
 // turesime vartotojo amziu
-// var age = 24;
+let age = 24;
 // gapal ji, turesiem isvesti tam tikra reklamos teksta
 
 
@@ -74,17 +69,28 @@
 //      iki 7 metu ir nuo 65 metu papildomai isvesti "Sokoladiniai zuikuciai 20% nuolaida"
 
 
+
 // 2 UZDUOTIS
 // sukurti 3 vardus "Tomas", "Paulius", "Airidas"
 // susikurti kintamaji 'klietoVardas' - kurio reiksme lyginsime
 // kai "if"-ui padauodame klietoVardas ir vardas1 - isvesti "Masinoms 10% nuolaida"
 // kai "if"-ui padauodame klietoVardas ir vardas2 - isvesti "Buitinei technikai  30% nuolaida"
 // kai "if"-ui padauodame bet ka kita - isvesti "5% nuolaida kelionems"
+let name1 = "Tomas";
+let name2 = "Paulius";
+let name3 = "Airidas";
+let klientoVardas =  "Paulius";
 
-// 3 UZDUOTIS
-// sukurti 3 kintamuosius (klientu tipus) "bronze", "silver", "gold"
-// susikurti kintamaji 'klietoTipas' - kurio reiksme lyginsime
-// kai 'klietoTipas' yra "bronze" - isvesti " 15% nuolaida"
-// kai 'klietoTipas' yra "silver" - isvesti " 30% nuolaida"
-// kai 'klietoTipas' yra   bet koks kitas - isvesti " 5% nuolaida  "
+if( name1 == klientoVardas ) {
+    console.log("Masinoms 10% nuolaida");
+} else if (name2 == klientoVardas ) {
+    console.log("Buitinei technikai  30% nuolaida");
+} else {
+    console.log("5% nuolaida kelionems");
+}
+
+
+
+
+
 //
