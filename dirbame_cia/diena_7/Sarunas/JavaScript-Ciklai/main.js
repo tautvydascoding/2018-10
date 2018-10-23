@@ -83,16 +83,23 @@ if (age < 7 || age >= 65) {
 
 // 2 UZDUOTIS
 // sukurti 3 vardus "Tomas", "Paulius", "Airidas"
+// susikurti kintamaji "klientoVardas" - kurio reiksme:
 // kai "if"-ui padauodame Toma - isvesti "Masinoms 10% nuolaida"
 // kai "if"-ui padauodame Pauliu - isvesti "Buitinei technikai  30% nuolaida"
 // kai "if"-ui padauodame bet ka kita - isvesti "5% nuolaida kelionems"
+var name1 = "Tomas";
+var name2 = "Paulius";
+var name3 = "Airidas";
 
+var klientoVardas = name1;
 
-
-
-
-
-
+if (name1 == klientoVardas){
+  console.log("Masinoms 10% nuolaida");
+}else if (name2 == klientoVardas) {
+  console.log("Buitinei technikai  30% nuolaida");
+}else {
+    console.log("Buitinei technikai  30% nuolaida");
+}
 // 3 UZDUOTIS
 // sukurti 3 kintamuosius (klientu tipus) "bronze", "silver", "gold"
 // susikurti kintamaji 'klietoTipas' - kurio reiksme lyginsime
@@ -100,3 +107,15 @@ if (age < 7 || age >= 65) {
 // kai 'klietoTipas' yra "silver" - isvesti " 30% nuolaida"
 // kai 'klietoTipas' yra   bet koks kitas - isvesti " 5% nuolaida  "
 //
+var x = "bronze";
+var y = "silver";
+var z = "gold";
+var klientoTipas = x;
+
+if (x == klientoTipas){
+  console.log("15% nuolaida");
+}else if (y == klientoTipo) {
+  console.log(" 30% nuolaida");
+}else {
+    console.log("5% nuolaida");
+}
