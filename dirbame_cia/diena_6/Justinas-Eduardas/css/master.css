@@ -16,12 +16,6 @@
 .aukstis-600 {
     height: 600px;
   }
-header {
-  background-color: black;
-  width: 100%;
-  height: 100px;
-  text-align: center;
-}
 .img-1 {
   width: 4%;
   float: left;
@@ -67,7 +61,7 @@ header {
   top: 10%;
 }
 
-li {
+header li {
   list-style-type: none;
   float: left;
   margin-left:  30px;
@@ -108,24 +102,9 @@ button {
   justify-content: space-around;
   justify-content: space-between;
 }
-img {
+.imgJ {
   width: 100%;
   height: 100%;
-}
-.aukstis-100 {
-    height: 100px;
-}
-.aukstis-200 {
-    height: 200px;
-}
-.aukstis-400 {
-    height: 400px;
-}
-.aukstis-500 {
-    height: 500px;
-}
-.aukstis-600 {
-  height: 600px;
 }
 .log1 {
   width: 10%;
