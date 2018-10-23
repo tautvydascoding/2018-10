@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+/* ------ virsutines juostos pradzia ----- */
 
 .header {
     background-color: #4ba3c7;
@@ -12,6 +13,8 @@
 .logo {
     margin: 5px;
 }
+
+/* ----- meniu pradzia ----- */
 
 .meniu {
     height: 40px;
@@ -45,6 +48,10 @@
     padding: 9px;
     margin-right: 0px;
 }
+
+/* ----- meniu pabaiga ----- */
+
+/* ----- teksto pradzia ----- */
 
 .heading {
     margin-top: 20px;
@@ -84,10 +91,16 @@ article h2 {
     padding: 5px;
 }
 
+/* ----- teksto pabaiga ----- */
+
+/* ----- vidurines nuotraukos pradzia ----- */
+
 .mid_container {
     position: relative;
     margin-top: 20px;
 }
+
+/* ----- mygtuko pradzia ----- */
 
 .mid_bg {
     width: 100%;
@@ -116,3 +129,5 @@ article h2 {
     margin-top: 50px;
     text-align: center;
 }
+
+/* ----- vidurines foto ir mygtuko pabaiga ----- */
