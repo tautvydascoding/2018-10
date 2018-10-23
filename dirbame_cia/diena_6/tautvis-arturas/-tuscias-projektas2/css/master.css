@@ -67,7 +67,7 @@ body{
 {
     position: relative;
     background: url(https://image.shutterstock.com/image-vector/horse-logo-emblem-template-mascot-260nw-273059870.jpg);
-    width: 50px;
+    width: 56px;
     left: 10px;
 }
 .idesne{
@@ -75,6 +75,17 @@ body{
 }
 .betarpu{
   margin-right: -5px;
+}
+.nuotrauka {
+width: 1140px;
+height:300px;
+}
+.virsus{
+  margin-top:auto;
+}
+.dydis {
+  margin-left: -15px;
+}
 =======
 /*-------defaultai----  */
 .apvalus{
@@ -137,9 +148,4 @@ li{
 }
 .icon{
 
-}
-img{
-  height: 50px;
-  width: 50px;
->>>>>>> 5526a9a0f6fe028c4da907247ffb93f2957b8b19
 }
