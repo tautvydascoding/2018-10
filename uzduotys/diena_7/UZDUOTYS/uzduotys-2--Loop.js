@@ -25,7 +25,8 @@
 
 // 2.3 UZDUOTIS
 // paleisti f-ja "printX(xx)" 12 kartu ir atspausdinti <img ...
-// 
+// PATARIMAS:
+// pabandyti  isideti nuotrauka i HTML faila, jie pavyks tada nusikopijuoti ir ideti i js faila 
 
 // 4 UZDUOTIS
 // A) sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);

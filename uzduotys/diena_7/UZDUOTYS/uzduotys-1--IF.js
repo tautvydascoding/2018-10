@@ -2,6 +2,9 @@
 // if ( true ) {
 //     console.log("labas");
 // }
+if(true){
+	console.log("labas")
+}
 
 // if (salyga) {
 //     // jei true
@@ -38,7 +41,7 @@
 // jeigu vardai sutampa, i konsole pranesti apie tai
 // jeigu vardai nesutampa - parasysi "vardai yra skirtingi"
 
-// B) 
+// B)
 // Jeigu vardas1 yra "Tomas" - pasisveikinti su juo
 
 // C)
@@ -76,8 +79,9 @@
 
 // 2 UZDUOTIS
 // sukurti 3 vardus "Tomas", "Paulius", "Airidas"
-// kai "if"-ui padauodame Toma - isvesti "Masinoms 10% nuolaida"
-// kai "if"-ui padauodame Pauliu - isvesti "Buitinei technikai  30% nuolaida"
+// susikurti kintamaji 'klietoVardas' - kurio reiksme lyginsime
+// kai "if"-ui padauodame klietoVardas ir vardas1 - isvesti "Masinoms 10% nuolaida"
+// kai "if"-ui padauodame klietoVardas ir vardas2 - isvesti "Buitinei technikai  30% nuolaida"
 // kai "if"-ui padauodame bet ka kita - isvesti "5% nuolaida kelionems"
 
 // 3 UZDUOTIS
