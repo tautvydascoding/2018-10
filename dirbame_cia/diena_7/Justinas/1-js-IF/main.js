@@ -109,12 +109,37 @@ console.log("Stok i sauliu sajunga");
 //      (i 'if' vidu ideti papildoma 'if')
 //      iki 7 metu ir nuo 65 metu papildomai isvesti "Sokoladiniai zuikuciai 20% nuolaida"
 
+let name1 = "Tomas";
+let name2 = "Paulius";
+let name3 = "Airidas";
+
+let klientoVardas = name3;
+if (name1 == klientoVardas) {
+  console.log("Masinoms 10% nuolaida");
+} else if(name2 == klientoVardas) {
+  console.log("Buitinei technikai  30% nuolaida");
+} else {
+  console.log("5% nuolaida kelionems");
+}
 
 // 2 UZDUOTIS
 // sukurti 3 vardus "Tomas", "Paulius", "Airidas"
 // kai "if"-ui padauodame Toma - isvesti "Masinoms 10% nuolaida"
 // kai "if"-ui padauodame Pauliu - isvesti "Buitinei technikai  30% nuolaida"
 // kai "if"-ui padauodame bet ka kita - isvesti "5% nuolaida kelionems"
+
+let type1 = "bronze";
+let type2 = "silver";
+let type3 = "gold";
+
+let klientoTipas = type1;
+if (type1 == klientoTipas) {
+  console.log("15% nuolaida");
+} else if(type2 == klientoTipas) {
+  console.log("30% nuolaida");
+} else {
+  console.log("5% nuolaida");
+}
 
 // 3 UZDUOTIS
 // sukurti 3 kintamuosius (klientu tipus) "bronze", "silver", "gold"
