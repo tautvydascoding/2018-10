@@ -12,7 +12,6 @@
     height: 500px;
 }
 
-<<<<<<< HEAD
 h1 {
     text-align: center;
 }
@@ -21,7 +20,7 @@ h2 {
     text-align: center;
 }
 
-button {
+.button {
     position: absolute;
     left: 0;
     top: 50%;
@@ -29,7 +28,7 @@ button {
     align: center;
     text-align: center;
 }
-  .miskas { 
+  .miskas-godos { 
     width: 100%;
     height: 200px;
     opacity: 0.3;
@@ -53,7 +52,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-=======
+<<<<<<< HEAD
 
 
 
@@ -109,5 +108,6 @@ li {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
->>>>>>> 65043c5ae4f10f182b0da6b245a7c76682c56c47
+=======
+>>>>>>> e75b846db6d4e5bb4560f56d724264fe23ddc0ab
 }
