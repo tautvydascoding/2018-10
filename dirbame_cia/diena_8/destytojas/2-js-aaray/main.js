@@ -33,6 +33,16 @@ console.log(  automobilis  ); // pasitikrinimas
 //      i mygtuka ideti: masinos kaina ....
 // </article>
 
+document.querySelector('body').innerHTML +=  "<article> </article>";
+let pavadinimas = "<h2>"  + automobilis[0]  + " </h2>";
+document.querySelector('article').innerHTML += pavadinimas ;
+
+let savininkas = "<div> savininko vardas: "  + automobilis[3]  + " </div>";
+document.querySelector('article').innerHTML += savininkas ;
+
+let masinosMetai = "<span> masinos metai:"  + automobilis[4]  + " </span>";
+document.querySelector('article').innerHTML += masinosMetai ;
+document.querySelector('article span').innerHTML += "Rida: " + automobilis[1] ;
 
 
 
