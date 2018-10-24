@@ -1,4 +1,4 @@
-// let namas = ["4 aukstu", "365k", "250000", "pirtis"];
+ // let namas = ["4 aukstu", "365k", "250000", "pirtis"];
 // let kaina = namas[2];
 // //console.log(kaina);
 //
@@ -79,3 +79,16 @@ console.log(automobilis[0] + " " + automobilis[1] + " " + automobilis[2] + " Aut
 // </article>
 
 //=============bootstrap---sm-md-lg-xl (30-60m)==========
+
+document.querySelector('body').innerHTML +=  "<article> </article>";
+let pavadinimas = "<h2>"  + automobilis[0]  + " </h2>";
+document.querySelector('article').innerHTML += pavadinimas ;
+
+let savininkas = "<div> savininko vardas: "  + automobilis[3]  + " </div>";
+document.querySelector('article').innerHTML += savininkas ;
+
+let masinosMetai = "<span> masinos metai:"  + automobilis[4]  + " </span>";
+document.querySelector('article').innerHTML += masinosMetai ;
+document.querySelector('article span').innerHTML += "Rida: " + automobilis[1] ;
+let masinosKaina = '<button type="button"> kaina ' + automobilis[2] + "</button>";
+document.querySelector('h2').innerHTML += "kaina : " + masinosKaina ;
