@@ -1,5 +1,3 @@
-
-
 // ====================Scope====================
 //   UZDUOTIS  A
 // sukurti funkcija "printDuomenys()" ,
@@ -8,12 +6,10 @@
 // iskviesti f-ja
 
 
-
 //   UZDUOTIS  B
 //  dabar, pabandykite po f-ja (uz jos ribu) i konsole atspausdinti kintamaji "vardas"
 //  console.log( vardas) ;
-// NOTE: gausite klaida ""is not defined""
-
+// NOTE: gaunate kalida ar ne?
 
 
 //================local && global=========
@@ -31,7 +27,7 @@
 // console.log("y", y);  // error - 1)   nes sukurtas f-jos viduje 2) sukurtas su "var"
 
 //------
- // UZDUOTIS // UZDUOTIS
+ // UZDUOTIS
  // A) sukurti kintamaji var katinas = "juodas"
  // B) sukurti f-ja
  // C) sukurti f-jos viduje kintamaji var katinas = "baltas"
@@ -54,7 +50,7 @@
  // var xx = 10; // global
  //
  // function isvesti( xx ) {  // xx - (local) naujas issigalvotas LAIKINAS  kintamasis
- //     xx = 20;  // local
+ //     xx = 20;
  //     console.log( "1. xx:", xx);
  //     console.log( "2. this.xx:",   this.xx);
  // }
