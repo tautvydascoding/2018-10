@@ -1,7 +1,3 @@
-console.log(   "Labas"  );
-
-
-
 // ====================Scope====================
 //   UZDUOTIS  A
 // sukurti funkcija "printDuomenys()" ,
@@ -9,30 +5,37 @@ console.log(   "Labas"  );
 // kuri  atspausdina i konsole  kintamaji "vardas"
 // iskviesti f-ja
 
-function printDuomenys(){
-  
-}
+// function printDuomenys(){
+// var vardas = "Tomas";
+// console.log(vardas);
+// }
+// printDuomenys();
 
 //   UZDUOTIS  B
 //  dabar, pabandykite po f-ja (uz jos ribu) i konsole atspausdinti kintamaji "vardas"
 //  console.log( vardas) ;
 // NOTE: gausite klaida ""is not defined""
 
-
+// function printDuomenys(){
+//   var vardas = "Tomas";
+//   console.log(vardas);
+// }
+// printDuomenys();
+// console.log(vardas);
 
 //================local && global=========
-// var x = "x -viesas ";   // global
-// function testLocalVar() {
-//    var y = "y -vietinis ";  // local
-//    z = "z -viesas";        // global // nereiketu taip daryti
-//    console.log("x", x);
-//    console.log("y", y);
-//    console.log("z", z);
-// }
-// testLocalVar();
-// console.log("x", x);
-// console.log("z", z);
-// console.log("y", y);  // error - 1)   nes sukurtas f-jos viduje 2) sukurtas su "var"
+//var x = "x -viesas ";   // global
+//function testLocalVar() {
+//var y = "y -vietinis ";  // local
+//z = "z -viesas";        // global // nereiketu taip daryti
+//console.log("x", x);
+//console.log("y", y);
+//console.log("z", z);
+//}
+//testLocalVar();
+//console.log("x", x);
+//console.log("z", z);
+//console.log("y", y);  // error - 1)   nes sukurtas f-jos viduje 2) sukurtas su "var"
 
 //------
  // UZDUOTIS // UZDUOTIS
@@ -42,19 +45,38 @@ function printDuomenys(){
  // D) atspauzdinti abu f-jos viduje
  // E) atspauzdinti  uz f-jos
 
- // var katinas = "juodas";   //global
+// var katinas = "juodas";
+//
+// function test2(){
+//   var katinas = "baltas";
+//   console.log("1 katinas yra:", katinas);
+//   console.log("2 katinas yra:", this.katinas);
+// }
+// test2();
+// console.log("3 katinas yra:", katinas);
+
+  //var katinas = "juodas";   //global
  //
- // function test2() {
- //     var katinas = "baltas";  // local
- //    console.log("1 katinas:", katinas);
- //    console.log("2 this.katinas - f-jos viduje: ",  this.katinas);    // this - pasiekia ~global kintamuosius (tavo tecio kintamuosius)
- // }
- // test2();
+ //function test2() {
+ //var katinas = "baltas";  // local
+ //console.log("1 katinas:", katinas);
+ //console.log("2 this.katinas - f-jos viduje: ",  //this.katinas);    // this - pasiekia ~global kintamuosius (tavo tecio kintamuosius)
+ //}
+ //test2();
  //
- // console.log("3 katinas:", katinas);
+ //console.log("3 katinas:", katinas);
 
 //==========================
 
+//var xx = 10;
+//function isvesti(xx) {
+//   xx = 20;
+//   console.log("1. xx:", xx);
+//   console.log("2. this.xx:", this.xx);
+// }
+// isvesti();
+
+//console.log("3. xx:", xx);
  // var xx = 10; // global
  //
  // function isvesti( xx ) {  // xx - (local) naujas issigalvotas LAIKINAS  kintamasis
@@ -79,6 +101,12 @@ function printDuomenys(){
 //  sukurti funkcija "printAntraste(x)" ,
 //  kuri atspausdina i DOM-a (ekrana) "x" reiksme
 //  iskviesti f-ja 3 kartus, kad atspausdintu 3 skirtingas antrastes:  "BMW pinga, nes daugeja", "Greik pageres orai", "Vasaros vis salteja"
+
+function printAntraste(x){
+
+}
+printAntraste(8);
+console.log(printAntraste());
 
 //  1.2 UZDUOTIS
 //  sukurti funkcija "printStraipsnis(x)"
