@@ -13,3 +13,13 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
+.spalva-red{
+  background-color: red;
+}
+.virsus {
+  margin-top: 5px;
+}
+
+.foto {
+  widght: 1700px;
+}
