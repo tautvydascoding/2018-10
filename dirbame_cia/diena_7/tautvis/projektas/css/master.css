@@ -23,3 +23,9 @@ h1 {
 .foto {
   widght: 1700px;
 }
+.visas {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+
+}
