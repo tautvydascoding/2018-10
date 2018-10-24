@@ -1,3 +1,6 @@
+console.log(   "Labas"  );
+
+
 //==============TEORIJA ++ / -- ==========
     var x = 10;
     x = x + 3;  // x = 13
@@ -10,40 +13,73 @@
 
 // 1 UZDUOTIS
 // isvesti 50 kartu zodi "Azuolas" i konsole  (! bandant tai padaryti, atsiras skaicius 50)
+let i;
+for (i = 0; i < 50; i++) {
+    console.log( "Azuolas" + i);
+}
 
 // 1.1 UZDUOTIS
 // isvesti i ekrana "<h3> Azuolas </h3>" su document.write arba innerHTML
-
+let tekstas ="";
+// pasitestuoti
+console.log(   document.querySelector('.mano-azuolai')   );
+for (i = 0; i < 50; i++) {
+    tekstas = i +  "Azuolas <br>";
+    document.querySelector('.mano-azuolai').innerHTML  += tekstas;
+}
 // 1.2 UZDUOTIS
 // isvesti 50 kartu zodi "<h2> Azuolas</h2> " i <article> elementa su  innerHTML pagalba
+// pasitestuoti
+// console.log(   document.querySelector('article')   );
+for (i = 0; i < 5; i++) {
+    // tekstas =   "<h2 class='bg-info mt-1'>  Azuolas </h2>";
+    tekstas =   "<h2>  Azuolas </h2>";
+    document.querySelector('article').innerHTML  += tekstas;
+}
 
 // 2.1 UZDUOTIS
 // sukurti f-ja "printX(xx)", kuri  i browser langa atspausdins paduota "xx" teksta (panaudojanti document.write arba innerHTML)
 
+/*
+   * f-ja kuri i DOM-a ideda paduota tekstas
+   * tekstas - paduotas tekstas, kuri idesime i html faila  "article" elemento vidu
+   * PS. jusms reikes, HTML faile susikurti "article" elemneta patiems
+  */
+function idetiIDOM(tekstas) {
+    document.querySelector('article').innerHTML  += tekstas;
+}
+// testuoju
+// idetiIDOM("<h2> mano tekstas </h2>");
+// idetiIDOM("<span> Span panaudoju </span>");
+
 // 2.2 UZDUOTIS
 // paleisti f-ja "printX(xx)" 100 kartu
 
+for (i= 0; i < 24; i++) {
+    tekstas =  "<div class='col-md-3'> \
+                    <h2> Dviratis </h2>   \
+                    <p> lorem lorem lorem </p>  \
+                    <button> 100 Eur </button>  \
+                </div>";
+    idetiIDOM( tekstas );
+}
+//
 // 2.3 UZDUOTIS
 // paleisti f-ja "printX(xx)" 12 kartu ir atspausdinti <img ...
-// PATARIMAS:
-// pabandyti  isideti nuotrauka i HTML faila, jie pavyks tada nusikopijuoti ir ideti i js faila
+//
+let manoFOTO =    " <img src='img/2.jpg' width='20%' height='auto' alt=' logotipas pilkam fone'>      ";
+
+document.querySelector('article').innerHTML += manoFOTO;
+// ARBA
+idetiIDOM(manoFOTO);
+idetiIDOM(manoFOTO);
+idetiIDOM(manoFOTO);
+idetiIDOM(manoFOTO);
+idetiIDOM(manoFOTO);
 
 // 4 UZDUOTIS
 // A) sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);
 // B) nupiesti tuscia lentele paleidiznat f-jas (  antrastine eilute "vardas |  pavarde | amzius" - teks isvesti be f-jos)
-funcion piestiEilute20() {
-let eilute = "";
-for (var i = 0; i < 20; i++) {
-  eilute = eilute + "-";
-}
-  console.log(eilute);
-
-
-}
-piestiEilute(20);
-
-
-
 
 // ----------------------------
 // vardas |  pavarde | amzius
