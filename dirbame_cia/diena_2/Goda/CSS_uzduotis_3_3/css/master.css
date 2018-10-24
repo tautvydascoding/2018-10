@@ -44,3 +44,16 @@ h2 {
 .tekst-des-sone {
     text-align: right;
 }
+
+p {
+  color: red;
+  text-align: center;
+}
+
+.langas {
+  background-color: red;
+  width: 50%;
+  
+  display: inline;
+ 
+}
