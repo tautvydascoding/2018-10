@@ -1,8 +1,8 @@
 
 // UZDUOTIS 1:
 // SUKURTI DVI F-JAS:
-// viena pasisveikina
-// kita atsisveikina
+// viena pasisveikina "sveikinuosi()"
+// kita atsisveikina "atsisveikinu()"
 
 // UZDUOTIS 1.1
 // patobulinti f-ja, kuri sveikinasi, kad ji papildoma argumenta "callback"  / "iskviestiPabaigusDarbus"
