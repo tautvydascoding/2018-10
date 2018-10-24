@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+/* ------ virsutines juostos pradzia ----- */
+
+.header {
+    background-color: #4ba3c7;
+    border: #005b9f solid 1px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.logo {
+    margin: 5px;
+}
+
+/* ----- meniu pradzia ----- */
+
+.meniu {
+    height: 40px;
+}
+
+.meniu ul {
+    height: 60px;
+    list-style-type: none;
+}
+
+.meniu ul li {
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    border: #003c8f solid 1px;
+}
+
+.meniu ul li a {
+    padding: 5px;
+    color: #003c8f;
+    text-decoration: none;
+}
+
+.meniu ul li a:hover {
+    color: #bbdefb;
+}
+
+.r_logo {
+    text-align: right;
+    height: 60px;
+    padding: 9px;
+    margin-right: 0px;
+}
+
+/* ----- meniu pabaiga ----- */
+
+/* ----- teksto pradzia ----- */
+
+.heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    color: #01579b;
+}
+
+.row_1 {
+    justify-content: flex-start;
+}
+
+.colum_1 {
+    align-items: flex-start;
+}
+
+.row_2 {
+    justify-content: center;
+}
+
+.colum_2 {
+    align-items: center;
+}
+
+.row_3 {
+    justify-content: flex-end;
+}
+
+.colum_3 {
+    align-items: flex-end;
+}
+
+article h2 {
+    background-color: #90caf9;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* ----- teksto pabaiga ----- */
+
+/* ----- vidurines nuotraukos pradzia ----- */
+
+.mid_container {
+    position: relative;
+    margin-top: 20px;
+}
+
+/* ----- mygtuko pradzia ----- */
+
+.mid_bg {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: #424242 solid 1px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.overlay:before {
+    content: ' ';
+    display: block;
+    height: 50%;
+}
+
+.waiting {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mid_img {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+/* ----- vidurines foto ir mygtuko pabaiga ----- */

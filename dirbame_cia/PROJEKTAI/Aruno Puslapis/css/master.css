@@ -1,0 +1,135 @@
+* {box-sizing: border-box;}  /* remeliai bus iskaiciuoti i vidu */
+
+html {
+  /* background-color: lightgrey; */
+}
+
+body {
+  width: 1366px
+  margin-left: auto; /*pastato puslapi i viduri*/
+  margin-right: auto; /*pastato puslapi i viduri*/
+}
+
+header {    /* padaryti kad header fonas butu paveikslelis  */
+  margin-left: auto;  /*pastato puslapi i viduri*/
+  margin-right: auto; /*pastato puslapi i viduri*/
+  background-image: url("lib/pictures/header-background.png");
+  background-color: #cccccc;
+  height: 320px;
+  width: 1366px;
+}
+
+header h2 {
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+nav li {
+
+  text-transform: uppercase;
+  width: 10%;
+  float: left;
+  text-align: center;
+  font-size: 17px;
+  padding: 0;
+  margin-top: 30px;
+}
+nav div {
+  width: 40%;
+  float: left;
+}
+nav li:hover {
+  background-color: black;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper h2 {           /*kodel sitie neveikia??? */
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+}
+
+.wrapper h3 {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: 0;
+}
+
+
+
+.eilute {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.taimeris {
+  margin-left: auto;
+  /*pastato puslapi i viduri*/
+  margin-right: auto;
+  /*pastato puslapi i viduri*/
+  background-image: url("lib/pictures/taimeris-fonas.png");
+  background-color: #940cb6;
+  height: 375px;
+  width: 1366px;
+  font-size: 100px;
+  margin-top: 20px;
+  color: white;
+}
+
+
+.footeris {
+  margin-left: auto;
+  /*pastato puslapi i viduri*/
+  margin-right: auto;
+  /*pastato puslapi i viduri*/
+  background-image: url("lib/pictures/footer-fonas1.png");
+  background-color: #940cb6;
+  height: 200px;
+  width: 1366px;
+}
+
+
+.footerio-stulpelis-1 {
+  /* padding: 0px 0 0 40px; */
+  display: flex;
+  justify-content: flex-start;
+} 
+
+footer img {
+  padding: 0 0 0 0; 
+  width: auto;
+  height: 30px;
+  margin: 10px 0 0 30px;
+}
+
+footer p {
+  margin-left: 20px;
+  color: white;
+}
+
+
+.laikinas {
+  background-image: url("lib/pictures/nuotrauku-albumas.jpg");
+  width: 1366px;
+  height: 300px;
+    margin-left: auto;
+    /*pastato puslapi i viduri*/
+    margin-right: auto;
+    /*pastato puslapi i viduri*/
+}
+
+.clear-fix {
+  clear: both;
+  content: "";
+}

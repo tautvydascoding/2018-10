@@ -2,6 +2,9 @@
 // if ( true ) {
 //     console.log("labas");
 // }
+if(true){
+	console.log("labas")
+}
 
 // if (salyga) {
 //     // jei true
