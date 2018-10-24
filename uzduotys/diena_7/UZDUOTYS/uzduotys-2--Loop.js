@@ -26,11 +26,24 @@
 // 2.3 UZDUOTIS
 // paleisti f-ja "printX(xx)" 12 kartu ir atspausdinti <img ...
 // PATARIMAS:
-// pabandyti  isideti nuotrauka i HTML faila, jie pavyks tada nusikopijuoti ir ideti i js faila 
+// pabandyti  isideti nuotrauka i HTML faila, jie pavyks tada nusikopijuoti ir ideti i js faila
 
 // 4 UZDUOTIS
 // A) sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);
 // B) nupiesti tuscia lentele paleidiznat f-jas (  antrastine eilute "vardas |  pavarde | amzius" - teks isvesti be f-jos)
+funcion piestiEilute20() {
+let eilute = "";
+for (var i = 0; i < 20; i++) {
+  eilute = eilute + "-";
+}
+  console.log(eilute);
+
+
+}
+piestiEilute(20);
+
+
+
 
 // ----------------------------
 // vardas |  pavarde | amzius

@@ -73,34 +73,59 @@
 // 2.3 UZDUOTIS
 // paleisti f-ja "printX(xx)" 12 kartu ir atspausdinti <img ...
 //
-function idetiIDOM(tekstas) {
-    document.querySelector('article').innerHTML  += tekstas;
-}
 
-
-for (i= 0; i < 24; i++) {
-    tekstas =  "<div class='col-md-3'> \
-                    <h2> Dviratis </h2>   \
-                    <p> lorem lorem lorem </p>  \
-                    <button> 100 Eur </button>  \
-                </div>";
-    idetiIDOM( tekstas );
-}
-
-let manoFOTO =    " <img src='img/2.jpg' width='20%' height='auto' alt=' logotipas pilkam fone'>      ";
-
-document.querySelector('article').innerHTML += manoFOTO;
-// ARBA
-idetiIDOM(manoFOTO);
-idetiIDOM(manoFOTO);
-idetiIDOM(manoFOTO);
-idetiIDOM(manoFOTO);
+// function idetiIDOM(tekstas) {
+//     document.querySelector('article').innerHTML  += tekstas;
+// }
+//
+//
+// for (i= 0; i < 24; i++) {
+//     tekstas =  "<div class='col-md-3'> \
+//                     <h2> Dviratis </h2>   \
+//                     <p> lorem lorem lorem </p>  \
+//                     <button> 100 Eur </button>  \
+//                 </div>";
+//     idetiIDOM( tekstas );
+// }
+//
+// let manoFOTO =    " <img src='img/2.jpg' width='20%' height='auto' alt=' logotipas pilkam fone'>      ";
+//
+// document.querySelector('article').innerHTML += manoFOTO;
+// // ARBA
+// idetiIDOM(manoFOTO);
+// idetiIDOM(manoFOTO);
+// idetiIDOM(manoFOTO);
+// idetiIDOM(manoFOTO);
 
 
 
 // 4 UZDUOTIS
 // A) sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);
 // B) nupiesti tuscia lentele paleidiznat f-jas (  antrastine eilute "vardas |  pavarde | amzius" - teks isvesti be f-jos)
+
+function piestiEilute20() {
+  let eilute = " ";
+  for (var i = 0; i <20; i++) {
+    eilute += "-";
+  }
+  console.log(eilute);
+}
+piestiEilute20()
+
+
+
+
+function piestiEilute(ilgis) {
+  let eilute = " ";
+  for (var i = 0; i < ilgis; i++) {
+    eilute += "-";
+  }
+  console.log(eilute);
+}
+piestiEilute(40);
+piestiEilute(10);
+piestiEilute(30);
+piestiEilute(60);
 
 // ----------------------------
 // vardas |  pavarde | amzius
