@@ -77,5 +77,42 @@ console.log(masina);
 //      <span> masinos metai: ...  Rida: ...</span>
 //      i mygtuka ideti: masinos kaina ....
 // </article>
+document.querySelector('body').innerHTML += "<article> </article>" ;
+var pavadinimas = "<h2>" + masina[0] + "</h2>";
+
+document.querySelector('article').innerHTML += pavadinimas ;
+var savininkas = "<div> savininko vardas yra " + masina[3] + "</div>";
+
+document.querySelector('article').innerHTML += savininkas ;
+var masinosMetai = "<span>" + masina[4] + "</span>";
+document.querySelector('article').innerHTML += masinosMetai ;
+document.querySelector('article span').innerHTML += "Rida" + masina[1] ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //=============bootstrap---sm-md-lg-xl (30-60m)==========
