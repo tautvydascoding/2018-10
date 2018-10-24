@@ -80,6 +80,28 @@ idetiIDOM(manoFOTO);
 // 4 UZDUOTIS
 // A) sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);
 // B) nupiesti tuscia lentele paleidiznat f-jas (  antrastine eilute "vardas |  pavarde | amzius" - teks isvesti be f-jos)
+function piestiEilute20() {
+    let eilute = "";   //local
+    for (var i = 0; i < 20; i++) {
+         eilute = eilute + "-";  // eilute += "-";
+    }
+    console.log(eilute);
+}
+piestiEilute20();
+console.log("aaa");
+piestiEilute20();
+
+function piestiEilute(ilgis) {
+    let eilute = "";   //local
+    for (var i = 0; i < ilgis; i++) {
+         eilute = eilute + "-";  // eilute += "-";
+    }
+    console.log(eilute);
+}
+piestiEilute(40);
+piestiEilute(10);
+// piestiEilute(30);
+// piestiEilute(60);
 
 // ----------------------------
 // vardas |  pavarde | amzius
