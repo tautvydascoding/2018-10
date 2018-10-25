@@ -19,3 +19,23 @@ console.log("Masyvas b", b);
 
 b.unshift("priekis"); // idejimas i masyvp prieky
 console.log("Masyvas b" , b);
+
+
+//$("h1")// suranda visus H1 elementus
+$("h1").click(function(event){
+  console.log("Mane paspaudei");
+});
+
+
+var mokykla = {
+  adresas: "Kaunas, Pramones pr. 12",
+  klasiuKiekis: 18,
+  darbuotojai: ["Agne", "Ainius", "Ponas Direktorius"]
+};
+console.log("Mokyklos adresas: " + mokykla.adresas);
+console.log("Mokyklos klasiu kiekis: " + mokykla.klasiuKiekis);
+console.log("Pirmas Mokyklos darbuotojas: " + mokykla.darbuotojai[0]);
+console.log("Antras Mokyklos darbuotojas: " + mokykla.darbuotojai[1]);
+console.log("Trecias Mokyklos darbuotojas: " + mokykla.darbuotojai[2]);
+mokykla.klasiuKiekis = 35;
+console.log("Pakeistas klasiu kiekis: " + mokykla.klasiuKiekis);
