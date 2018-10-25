@@ -1,29 +1,34 @@
 console.log(   "Labas"  );
+
+
 $('h1').css('color', 'pink');
 
-let objektas = "";  //string
-let a = {};  //object
-let b = ["tomas", "matvydas"]; //array && object
+let objektas = ""; // string
+let a = {}; // object
+let b = ["tomas", "mantvydas"]; // array && object
 
-b.push("ieva");  //ideda i masyvo gala
-b.push("angele");
+b.push(  "ieva");   // ideda i masyvo gala
+b.push(  "angele");
 
-console.log("masyvas b ", b);
+console.log(   "masyvas b " , b);
+//
+// google "w3 js push()
 
-let ilgis = b.lenght;
-b[ilgis] = "Romas";
+let ilgis = b.length;
+b[  ilgis ] = "Romas";
 
-console.log("masyvas b ", b);
+console.log(   "masyvas b " , b);
 b.pop(); // istrina is masyvo galo
-console.log("istrynem paskutini ", b);
+console.log(   "istrynem paskutini " , b);
 
-b.unshift("priekis"); //idejimas i masyvo prieki
-console.log("idejom i prieki ", b);
+b.unshift("priekis");  // idejimas i masyvo prieki
+console.log(   "idejome i prieki " , b);
 
-//$('h1') suranda visus visus h1 elementus
+// $('h1')  // suranda visus visus h1 elemntus
 $('h1').click(function(event) {
-console.log("mane paspaudei");
+     console.log("mane paspaukei");
 });
+
 
 let mokykla = {
   adresas : "Kaunas, Kruonio 13",
