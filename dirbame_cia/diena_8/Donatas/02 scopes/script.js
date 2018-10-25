@@ -66,6 +66,7 @@ function printAntraste(antraste){
     document.querySelector('.tekstas').innerHTML += antraste;
 }
 
+printAntraste(document.querySelector('.tekstas'));
 printAntraste('BMW pinga, nes daugeja');
 printAntraste('Greik pageres orai');
 printAntraste('Vasaros vis salteja');
