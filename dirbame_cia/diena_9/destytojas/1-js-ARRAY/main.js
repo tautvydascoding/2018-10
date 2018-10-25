@@ -49,6 +49,9 @@ if (pavykoRasti == true) {
 
 // 2 UZDUOTIS (f-ja iekom stalciaus)
 // parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
+
+console.log( names.length ); // 50
+
 function  getStalciausNumeris( ieskomasTekstas) {
     for (var i = 0; i < names.length; i++) {
         if (names[i] == ieskomasTekstas) {
@@ -73,11 +76,34 @@ if( numerisPikolas == undefined) {
 // uzduotis:----------------------------
 // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
 
+//trumpasis budas
+let freidosNumeris = getStalciausNumeris( "Freida");
+let freidosPavarde = lastNames[freidosNumeris];
+console.log(  "Freidos pavarde yra:" + freidosPavarde  );
+//arba
+$('h1').text(   "Freidos pavarde yra:" + freidosPavarde  );
+
+console.log( "masyvo ilgis" + names.length);
+
+// let g= names.indexOf("Rico");
+
 // 4) rasti visu zmoniu vardu "Rico" pavardes
-// 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];
+for (var i = 0; i < names.length; i++) {
+    if(names[i]  == "Rico") {
+        console.log( i + " Riko pavarde " + lastNames[i]);
+    }
+}
+// 5) Turime masyva su zmoniu nr.
+ieskomiZmones = [2, 16, 17, 18, 19, 25];
+let sk;
+for (var i = 0; i < 6; i++) {
+     console.log("ieskomas:" + ieskomiZmones[i] );
+     // B
+     sk =  ieskomiZmones[i];
+     console.log(   names[ sk ]  + " "   +   lastNames[sk] );
+}
 // A) atspausdinti visus numerius
 // B) isvesti ju pavardes ir vardus
-
 
 
 // var a = Math.random(); // 0 - 1
