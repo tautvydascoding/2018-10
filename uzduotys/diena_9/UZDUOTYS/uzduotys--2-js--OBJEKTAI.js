@@ -12,7 +12,8 @@ var zmogus; // undefined
 // atspauzdinti visus duomenis
 
 // UZDUOTIS 1.2
-// PAKEISTI : klase i sekancia
+// PAKEISTI : perkelti mokini i sekancia klase
+
 // UZDUOTIS 1.2.1
 // if patikrinimas: jei mokinys yra 13-tokas - isveskite teksta: "mokinys pabaige mokykla", jeigu mokinys yra penktokas  - "pabaige pradine mokykla"
 // pakeisti: visus 6 pazymius
