@@ -65,12 +65,21 @@ let mokinys = {
 // atspauzdinti visus duomenis
 console.log(   "objektas yra:", mokinys  );
 console.log(  "vardas: " + mokinys.vardas );
+console.log(  "klase: " + mokinys.kelintokas );
 
 // UZDUOTIS 1.2
 // PAKEISTI : klase i sekancia
+mokinys.kelintokas++;
+console.log(  "klase po pakeitimo: " + mokinys.kelintokas );
 
 // UZDUOTIS 1.2.1
 // if patikrinimas: jei mokinys yra 13-tokas - isveskite teksta: "mokinys pabaige mokykla", jeigu mokinys yra penktokas  - "pabaige pradine mokykla"
+
+if (mokinys.kelintokas > 12) {
+    console.log( "mokinys pabaige mokykla");
+} else if (mokinys.kelintokas === 5) {
+    console.log( "pabaige pradine mokykla");
+}
 // pakeisti: visus 6 pazymius
 // prideti nauja f-ja begu(), kuri isves i console 'bugu begu'
 // prideti nauja kintamaji: miestas = 'kaunas'
@@ -83,22 +92,44 @@ console.log(  "vardas: " + mokinys.vardas );
 // B) vaikas:  vardas (string), klase(number)
 // 2.1) priskirti "vaikas" objekta - tevo kintamajam vaikas  (kintamajam)
 
+let tetis = {
+    vardas : "Juozas",
+    pavarde: "Juozaitis",
+    vaikas: { } //object
+}
+let vaikas = {
+    vardas : "ieva",
+    pavarde: "Juozaitaite"
+}
+console.log( "visas objektas:" , tetis );
+console.log(  "visas objektas:" ,vaikas );
+// 2.1
+tetis.vaikas = vaikas;
+// tetis.vaikas = 200; //numbet
+console.log( "po pakeitimo" );
+console.log( "visas objektas:" , tetis );
+console.log(  "visas objektas:" ,vaikas );
 
 // 3 UZDUOTIS
 // sukurti  objekto "darbuotojas" construktoriu. Objektas darbuotojas: nr, vardas, pavarde, alga
 // 3.1 sukurti pora darbuotoju ir atspausdinti ju duomenis
 
 //============3=pvz: construktorius =====
-// function Car(dSkaicius, spalva, greitis) {
-//     this.numberOfDoors = dSkaicius;
-//     this.color = spalva;
-//     this.maxSpeed = greitis;
-// }
-//
-// // objekto kurimas
-// var AudiTT  = new Car(2, "red", 280);
-// var Audi100 = new Car(5, "black", 200);
+function Car(dSkaicius, spalva, greitis) {
+    this.numberOfDoors = dSkaicius;
+    this.color = spalva;
+    this.maxSpeed = greitis;
+    this.x = 4;
+}
 
+// objekto kurimas
+var AudiTT  = new Car(2, "red", 280);
+var Audi100 = new Car(5, "black", 200);
+var Audi90 = new Car(5, "blue", 200);
+var Audi110 = new Car(5, "res", 220);
+
+console.log( "visas objektas audiTT :" , AudiTT);
+console.log( "visas objektas audi 100:" , Audi100);
 
 
 
