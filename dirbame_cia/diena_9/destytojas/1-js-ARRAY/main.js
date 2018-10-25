@@ -49,10 +49,30 @@ if (pavykoRasti == true) {
 
 // 2 UZDUOTIS (f-ja iekom stalciaus)
 // parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
-// eg: getStalciausNumeris( ieskomasTekstas)
+function  getStalciausNumeris( ieskomasTekstas) {
+    for (var i = 0; i < names.length; i++) {
+        if (names[i] == ieskomasTekstas) {
+            pavykoRasti = true;
+            return i; // graziname numeri rasto darbuotojo
+        }
+    }
+}
+let numeris =  getStalciausNumeris( "Rico");
+console.log( "ieskomo zmogaus numeris: " + numeris);
+
+let numerisPiper =  getStalciausNumeris( "Piper");
+console.log( "Piper  numeris: " + numerisPiper);
+
+let numerisPikolas =  getStalciausNumeris( "Pikolas");
+if( numerisPikolas == undefined) {
+    console.log( "Pikolas  nerastas");
+} else {
+    console.log( "Pikolas  numeris: " + numerisPikolas);
+}
 
 // uzduotis:----------------------------
 // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
+
 // 4) rasti visu zmoniu vardu "Rico" pavardes
 // 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];
 // A) atspausdinti visus numerius
