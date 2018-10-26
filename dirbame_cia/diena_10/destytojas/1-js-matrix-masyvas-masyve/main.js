@@ -52,11 +52,29 @@ $('h1').css('color', 'pink');
      }
      // UZDUOTIS 1.2
      // isvesti visu  darbuotoju tik vardus (naudojant FOR cikla)
+     for (var i = 0; i < 3; i++) {
+          console.log( "vardas:"
+                          + visiDarbuotojai[i][0]
+                          + visiDarbuotojai[i][1]
+                          + visiDarbuotojai[i][2]
+                          + visiDarbuotojai[i][3]
+                     );
+     }
+
      // UZDUOTIS 1.3
      // isvesti visa informacija apie kiekviena  darbuotoja  (naudojant VIENA FOR cikla)
+
      // UZDUOTIS 1.4
      // isvesti visa informacija apie kiekviena  darbuotoja  (naudojant DU FOR ciklus)
 
+// ciklas eina per darbuotojus
+ for (var i = 0; i < 3; i++) {
+     // ciklas eina per konkretaus Darbuotojo duomenis
+     for (var t = 0; t < 4; t++) {
+            console.log(  visiDarbuotojai[i][t] );
+     }
+     console.log("--------------");
+ }
 
     // UZDUOTIS 2 --------------
     // sukurti matrica, kurioje bus saugoma kiekvienos prekes info:
