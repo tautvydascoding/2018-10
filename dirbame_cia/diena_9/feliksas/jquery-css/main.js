@@ -1,22 +1,21 @@
-// //Execute the function when the DOM is ready to be used.
-// $(function() {
-//     // Document is ready
-// });
+console.log(   "Labas"  );
 
+
+$('h1').css('color', 'pink');
 // jQuery(function( $ ) {
 //     // Your code using failsafe $ alias here...
 // });
 
 // //=============css===============
-//$( "article > p" ).css( "border", "1px solid gray" );
+$( "article > p" ).css( "border", "1px solid gray" );
 
 // // arba
 
- //var myCSS = {
-  //   "border": "1px solid gray",  //deti i kabutes
-  //   "color": "red"
-// };
-// $( "article > p" ).css( myCSS );
+ var myCSS = {
+     "border": "1px solid gray",  //deti i kabutes
+     "color": "red"
+ };
+ $( "article > p" ).css( myCSS );
 
 // // advance: get curent width and height
 // // $( 'p' ).css(
@@ -33,15 +32,15 @@
 // // //=============selectors kaip CSS=========
 
 // // keliu elementu select'as (select h1 and h2 elements)
-// $( "h1, h2" ).css( "background", "black" );
-// $( "h1" ).css().add( "h2" ).css( "background", "yellow" );
+ $( "h1, h2" ).css( "background", "black" );
+ $( "h1" ).css().add( "h2" ).css( "background", "yellow" );
 
 // // paveiks paskutini is li elementu
-// $( "li" ).last().css( "background", "yellow" );
-// // $( "li:last" ).addClass( "selected highlight" );
+ $( "li" ).last().css( "background", "yellow" );
+  $( "li:last" ).addClass( "selected highlight" );
 
-// $( "p:even" )
-// //$( "p:eq(1)" ); // pirmas
+ //$( "p:even" )
+// $( "p:eq(1)" ); // pirmas
 
 // // $( "h1", "form" ).addClass( "bar" );
 // // !!! importnat sekantis parametras nurodo kur ieskoti. pvz ^ h1 bus ieskomas TIK form'os viduje !!!
