@@ -42,8 +42,22 @@ $('h1').css('color', 'pink');
      console.log("Pareigos :" + visiDarbuotojai[0][3]);
      // UZDUOTIS 1.2
      // isvesti visu  darbuotoju tik vardus (naudojant FOR cikla)
+     for (var i = 0; i < visiDarbuotojai[0].length; i++){
+
+     }
+     console.log(visiDarbuotojai[0][0]);
+     console.log(visiDarbuotojai[1][0]);
+     console.log(visiDarbuotojai[2][0]);
+
+
      // UZDUOTIS 1.3
      // isvesti visa informacija apie kiekviena  darbuotoja  (naudojant VIENA FOR cikla)
+     for (var i = 0; i < visiDarbuotojai[0].length; i++){
+       console.log(visiDarbuotojai[0][i]);
+       console.log(visiDarbuotojai[1][i]);
+       console.log(visiDarbuotojai[2][i]);
+     }
+
      // UZDUOTIS 1.4
      // isvesti visa informacija apie kiekviena  darbuotoja  (naudojant DU FOR ciklus)
 
