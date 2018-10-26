@@ -118,12 +118,13 @@ if ( age < 7 ) {
 // kai 'klietoTipas' yra "silver" - isvesti " 30% nuolaida"
 // kai 'klietoTipas' yra   bet koks kitas - isvesti " 5% nuolaida  "
 
+/*
 let bronze = "Jums taikoma 15% nuolaida";
 let silver = "Jums taikoma 30% nuolaida";
 let gold = "Jums taikoma 50% nuolaida" ;
 let klientoTipas = "x" ;
 
-/*  nepadaryta
+  nepadaryta
 if  ( x = bronze ) {
     console.log ( bronze );
     }  else {
@@ -200,15 +201,28 @@ printX(15.99);
 // paleisti f-ja "printX(xx)" 12 kartu ir atspausdinti <img ...
 // 
 
-
+/*
 for (i = 0; i < 12; i++) {
 let manoFoto = "<img src='lib/1.jpg' alt='foto'>";
     document.querySelector('.vardas').innerHTML += manoFoto;
 }
-
+*/
 
 // 4 UZDUOTIS
 // A) sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);
 // B) nupiesti tuscia lentele paleidiznat f-jas (  antrastine eilute "vardas |  pavarde | amzius" - teks isvesti be f-jos)
 
+function piestiEilute (ilgis) {
+    let eilute = " ";   // local
+    for (var i =0; i<ilgis; i++) {
+        eilute = eilute + "-";  // jei tik = tai eilute kiekviena cikla trins, jei taip kaip dabar tai vis dades po bruksneli
+    }
+console.log (eilute);   //jei piesti tik viena eilute, tai negali buti FOR cikle
+}
+
+piestiEilute( 20 );  // skaicius 20 nurodo kiek bruksneliu bus
+piestiEilute( 100 ); // skaicius 20 nurodo kiek bruksneliu bus
+
+
 // ----------------------------
+
