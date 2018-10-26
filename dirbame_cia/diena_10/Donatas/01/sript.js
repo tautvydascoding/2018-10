@@ -43,3 +43,4 @@ for(let i=0; i<darbuotojai.length; i++){
     }
     console.log('----------------');
 }
+
