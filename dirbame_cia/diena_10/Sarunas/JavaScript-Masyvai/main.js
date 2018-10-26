@@ -42,25 +42,29 @@ $('h1').css('color', 'pink');
      console.log("Pareigos :" + visiDarbuotojai[0][3]);
      // UZDUOTIS 1.2
      // isvesti visu  darbuotoju tik vardus (naudojant FOR cikla)
-     for (var i = 0; i < visiDarbuotojai[0].length; i++){
+     for (var i = 0; i < visiDarbuotojai.length; i++){
+            console.log("Vardas: " + visiDarbuotojai[i][0]);
+            console.log("Pareigos : " + visiDarbuotojai[i][3]);
+               }
 
-     }
-     console.log(visiDarbuotojai[0][0]);
-     console.log(visiDarbuotojai[1][0]);
-     console.log(visiDarbuotojai[2][0]);
+
 
 
      // UZDUOTIS 1.3
      // isvesti visa informacija apie kiekviena  darbuotoja  (naudojant VIENA FOR cikla)
-     for (var i = 0; i < visiDarbuotojai[0].length; i++){
-       console.log(visiDarbuotojai[0][i]);
-       console.log(visiDarbuotojai[1][i]);
-       console.log(visiDarbuotojai[2][i]);
+     for (var i = 0; i < visiDarbuotojai.length; i++){
+       console.log("Vardas :" + " " + visiDarbuotojai[i][0] + " " + visiDarbuotojai[i][1] + " " + visiDarbuotojai[i][2] +" "+ visiDarbuotojai[i][3]);
      }
-
      // UZDUOTIS 1.4
      // isvesti visa informacija apie kiekviena  darbuotoja  (naudojant DU FOR ciklus)
 
+     //CIKLAS EINA PER DARBUOTOJUS
+     for (var i = 0; i < visiDarbuotojai.length; i++){
+       // CIKLAS EINA PER KONKRETAUS DARBUOTOJO DUOMENIS
+       for (var t = 0; t < [i][t].length; t++){
+         console.log(visiDarbuotojai[i][t]);
+       }
+     }
 
     // UZDUOTIS 2 --------------
     // sukurti matrica, kurioje bus saugoma kiekvienos prekes info:
