@@ -61,10 +61,12 @@ $('h1').css('color', 'pink');
      //CIKLAS EINA PER DARBUOTOJUS
      for (var i = 0; i < visiDarbuotojai.length; i++){
        // CIKLAS EINA PER KONKRETAUS DARBUOTOJO DUOMENIS
-       for (var t = 0; t < [i][t].length; t++){
+       for (var t = 0; t < visiDarbuotojai[i].length; t++){
          console.log(visiDarbuotojai[i][t]);
        }
+       console.log("--------------------");
      }
+
 
     // UZDUOTIS 2 --------------
     // sukurti matrica, kurioje bus saugoma kiekvienos prekes info:
