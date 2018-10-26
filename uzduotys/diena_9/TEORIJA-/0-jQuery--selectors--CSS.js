@@ -8,13 +8,13 @@
 // });
 
 // //=============css===============
-// $( "article > p" ).css( "border", "1px solid gray" );
+//$( "article > p" ).css( "border", "1px solid gray" );
 
 // // arba
 
-// var myCSS = {
-//     "border": "1px solid gray",
-//     "color": "red"
+ //var myCSS = {
+  //   "border": "1px solid gray",  //deti i kabutes
+  //   "color": "red"
 // };
 // $( "article > p" ).css( myCSS );
 
