@@ -18,6 +18,6 @@
         // body
         // header       insertBefore
         // aside
-//     headerio elementa ideti virs <aside> elementu
+//      headerio elementa ideti virs <aside> elementu
 //      manoH1 tetis            kaIdeti  PriesKa
-// document.body.insertBefore(  manoAside, manoH1 );
+//      document.body.insertBefore(  manoAside, manoH1 );
