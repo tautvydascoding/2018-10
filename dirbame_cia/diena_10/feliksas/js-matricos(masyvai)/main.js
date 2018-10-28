@@ -82,7 +82,8 @@ for (var i = 0; i < 3; i++) {
   for (var t = 0; t < 4; i++) {
 
   }
-  console.log( visiDarbuotojai[i][t] );
+  console.log( visiDarbuotojai[i][t]
+  );
 
 }
 
