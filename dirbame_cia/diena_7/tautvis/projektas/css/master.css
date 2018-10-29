@@ -21,11 +21,29 @@ h1 {
 }
 
 .foto {
-  widght: 1700px;
-}
-.visas {
-  background-size: cover;
-  background-position: center;
-  height: 100%;
+  width: 1920px;
+  height: 500px;
 
+}
+.ikono-dydis {
+  width: 50px;
+  height: 70px;
+}
+.owl-carousel .item{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.recommended .rec-text {
+    font-weight: 300;
+    font-size: 1.05em;
+    display: block;
+  }
+  #owl-carousel .item{
+      margin: 3px;
+}
+.owl-carousel .item{
+    display: block;
+    width: 100%;
+    height: auto;
 }
