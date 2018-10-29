@@ -1,10 +1,10 @@
 console.log(   "Labas"  );
 $(function(){
-  $('h1').css('color', 'pink');
+  $('h4').css('color', 'pink');
 
-$('h1').click(function(event) {
+$('h4').click(function(event) {
   console.log("paspaudei");
-  $('h1').hide(2500);
+  $('h4').hide(2500);
 
 });
 
