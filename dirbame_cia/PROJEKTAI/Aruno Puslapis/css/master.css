@@ -5,16 +5,16 @@ html {
 }
 
 body {
-  width: 1366px
+  width: 1366px;
   margin-left: auto; /*pastato puslapi i viduri*/
   margin-right: auto; /*pastato puslapi i viduri*/
 }
 
-header {    /* padaryti kad header fonas butu paveikslelis  */
-  margin-left: auto;  /*pastato puslapi i viduri*/
-  margin-right: auto; /*pastato puslapi i viduri*/
+header {  
+ /* margin-left: auto;  /*pastato puslapi i viduri*/
+ /* margin-right: auto; /*pastato puslapi i viduri*/ 
   background-image: url("lib/pictures/header-background.png");
-  background-color: #cccccc;
+  background-color: black;
   height: 320px;
   width: 1366px;
 }
@@ -27,7 +27,6 @@ li {
   list-style-type: none;
 }
 nav li {
-
   text-transform: uppercase;
   width: 10%;
   float: left;
@@ -50,15 +49,38 @@ nav a {
   color: white;
 }
 
-.wrapper h2 {           /*kodel sitie neveikia??? */
+.taimeris {
+  /* margin-left: auto; */
+  /*pastato puslapi i viduri*/
+  /* margin-right: auto; */
+  /*pastato puslapi i viduri*/
+  /* background-image: url("lib/pictures/taimeris-fonas.png"); */
+  /* background-color: #940cb6; */
+  /* height: 375px;
+  width: 1366px; */
+  font-size: 40px;
+  /* margin-top: 10px; */
+  color: white;
+}
+
+.taimerio-tekstas {
+  color: white;
+  font-size: 20px;
+}
+
+main {
+  border-style: hidden;
+}
+
+main h2 {   
     color: black;
     text-transform: uppercase;
-    text-align: center;
-    font-size: 30px;
+    /* text-align: center; */
+    font-size: 60px;
     padding: 0;
 }
 
-.wrapper h3 {
+main h3 {
   color: black;
   text-align: center;
   font-size: 20px;
@@ -67,25 +89,12 @@ nav a {
 
 
 
-.eilute {
+.centravimas-vidury {
   display: flex;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
 }
 
-.taimeris {
-  margin-left: auto;
-  /*pastato puslapi i viduri*/
-  margin-right: auto;
-  /*pastato puslapi i viduri*/
-  background-image: url("lib/pictures/taimeris-fonas.png");
-  background-color: #940cb6;
-  height: 375px;
-  width: 1366px;
-  font-size: 100px;
-  margin-top: 20px;
-  color: white;
-}
 
 
 .footeris {
@@ -99,8 +108,11 @@ nav a {
   width: 1366px;
 }
 
+footer {
+  width: 1366px;
+}
 
-.footerio-stulpelis-1 {
+.isdestymas-kaire {
   /* padding: 0px 0 0 40px; */
   display: flex;
   justify-content: flex-start;
@@ -118,6 +130,14 @@ footer p {
   color: white;
 }
 
+.zinutes-laukelis {
+  width:54%;
+}
+
+
+.footerio-paveiksliukas-2 {
+  background-image: url(lib/pictures/footer-fonas2.png);
+}
 
 .laikinas {
   background-image: url("lib/pictures/nuotrauku-albumas.jpg");
