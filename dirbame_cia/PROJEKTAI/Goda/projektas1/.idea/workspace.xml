@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de41da3d-1df0-4b02-9e19-f8658f0aa30c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/css/master.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/gallery-gyvenamieji.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/gallery-interjerai.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/gallery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/lib/php/DBConnector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/projektas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/1a namas spalvotas.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/1a namas spalvotas.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/1a namas.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/1a namas.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/Interjeras2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/apie mane.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/apie mane.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/baltas namas.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/baltas namas.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/baltas namas1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/baltas namas1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/email.png" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/email.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/home page.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/home page.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/home page1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/home page1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/interjeras4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/namas front page.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/namas front page.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/page front.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/page front.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/phone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paveikslai/wall.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/img/wall.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/about-me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/master.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-gyvenamieji.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-interjerai.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontaktai.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/kontaktai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boostarp4/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/lib/bootstrap4/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boostarp4/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/lib/bootstrap4/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boostarp4/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/lib/bootstrap4/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boostarp4/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/lib/bootstrap4/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boostarp4/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/lib/bootstrap4/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boostarp4/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/lib/bootstrap4/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boostarp4/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/lib/bootstrap4/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boostarp4/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/lib/bootstrap4/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boostarp4/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/lib/bootstrap4/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boostarp4/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/lib/bootstrap4/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boostarp4/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/lib/bootstrap4/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/img/Interjeras1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/img/interjeras3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/img/namas3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/img/namas4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/img/namas5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/img/namas6.jpg" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="721589366">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Vagrantfile" value="1" />
+          <entry key="css" value="3" />
+          <entry key="html" value="2" />
+          <entry key="php" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="2" />
+          <entry key="PHP" value="11" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="114" />
+          <entry key="html" value="2" />
+          <entry key="php" value="1697" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="114" />
+          <entry key="HTML" value="2" />
+          <entry key="PHP" value="1697" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/gallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="82" column="43" lean-forward="true" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/kontaktai.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/gallery-gyvenamieji.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public_html/gallery-interjerai.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/lib/php/DBConnector.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/projektas.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/css/master.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="189" column="1" lean-forward="true" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bootstrap.sh" />
+        <option value="$PROJECT_DIR$/public_html/Projektas2-detalus.php" />
+        <option value="$PROJECT_DIR$/public_html/lib/php/DBConnector.php" />
+        <option value="$PROJECT_DIR$/public_html/gallery.php" />
+        <option value="$PROJECT_DIR$/public_html/kontaktai.html" />
+        <option value="$PROJECT_DIR$/public_html/css/master.css" />
+        <option value="$PROJECT_DIR$/public_html/projektas.php" />
+        <option value="$PROJECT_DIR$/public_html/gallery-gyvenamieji.php" />
+        <option value="$PROJECT_DIR$/public_html/gallery-interjerai.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="24" />
+    <option name="y" value="214" />
+    <option name="width" value="1346" />
+    <option name="height" value="665" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="projektas1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektas1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projektas1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektas1" type="462c0819:PsiDirectoryNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projektas1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projektas1" type="462c0819:PsiDirectoryNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Finkona\Documents\GS Web design\Coding\2018-10\dirbame_cia\PROJEKTAI\Goda\projektas1\public_html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Finkona\Documents\GS Web design\Coding\2018-10\dirbame_cia\PROJEKTAI\Goda\projektas1\public_html" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de41da3d-1df0-4b02-9e19-f8658f0aa30c" name="Default Changelist" comment="" />
+      <created>1541575375073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541575375073</updated>
+      <workItem from="1541575378273" duration="119000" />
+      <workItem from="1541575536775" duration="18738000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18857000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bootstrap.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Interjeras1-detalus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Interjeras2-detalus.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/Projektas2-detalus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysqli/mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="1371" column="19" selection-start-line="1371" selection-start-column="15" selection-end-line="1371" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/kontaktai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/css/master.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="189" column="1" lean-forward="true" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/projektas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/gallery-gyvenamieji.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/lib/php/DBConnector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="82" column="43" lean-forward="true" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/gallery-interjerai.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

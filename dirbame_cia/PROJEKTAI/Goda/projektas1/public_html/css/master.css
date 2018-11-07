@@ -1,0 +1,239 @@
+h1 {
+    color: red;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.aukstis-100 {
+    height: 100px;
+}
+
+.aukstis-200 {
+    height: 200px;
+}
+
+.aukstis-300 {
+    height: 300px;
+}
+
+.aukstis-500 {
+    height: 500px;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 125px;
+    z-index: 99999;
+
+}
+
+.eilute {
+    list-style-type: none;
+    margin-right: 100px;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.eilute-gallery {
+    list-style-type: none;
+    margin-right: 100px;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+/* logo menu juostoje */
+header img {
+    height: 120px;
+    padding-top: 5px;
+    position: absolute;
+
+}
+
+li {
+    list-style-type: none;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+li a:hover {
+    background-color: none;
+    text-decoration: underline overline;
+    color: #333;
+}
+
+/* pagrindinio paveikslas */
+.home-img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    height: 140px;
+    background-color: black;
+    
+}
+
+.kontaktai {
+    height: 100px;
+    align-content: center;
+    font-size: 10px;
+    color: white;
+    background-color: #333;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+footer img {
+    height: 15px;
+    margin-right: 20px;
+}
+
+.apacios-eilute {
+    height: 30px;
+    margin-top: 20px;
+    background-color: black;
+    padding-top: 0;
+    margin: 8px;
+    color: lightgray;
+}
+
+h6 {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    
+}
+footer.h6 {
+    font-family: Montserrat, sans-serif;
+    line-height: 20px;
+
+
+
+
+    letter-spacing: 10px;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.centravimas {
+    justify-content: center;
+    display: flex;
+}
+
+.galerija {
+    height: auto;
+    margin: 10px;
+    margin-bottom: 50px;
+    filter: grayscale(100%);
+}
+
+.galerija:hover {
+    filter: grayscale(0);
+
+}
+
+main {
+    margin-top: 125px;
+    margin-bottom: 0px;
+
+}
+
+.apie-mane-foto {
+    height: 500px;
+    width: auto;
+    padding-left: 17px;
+    /*sulygiavau prie menu juostos*/
+}
+
+.img.kontaktai-img {
+    height:500px;
+    width: 100%;
+
+}
+
+.padding-top{
+    padding-top: 50px;
+}
+
+.contacts-bottom-line {
+    height: 40px;
+    background-color:black;
+    color: white;
+    padding-top: 12px;
+}
+
+/* Kontaktų siuntimo forma */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.antraste {
+    display: block;
+}
+
+.kaire {
+    float: left;
+}
+
+.desine {
+    float: right;
+}
