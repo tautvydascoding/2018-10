@@ -9,3 +9,6 @@ $('h4').click(function(event) {
 });
 
 });
+$(function(){
+    $('.selectpicker').selectpicker();
+});

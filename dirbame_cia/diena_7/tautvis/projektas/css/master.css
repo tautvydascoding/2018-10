@@ -47,3 +47,10 @@ h1 {
     width: 100%;
     height: auto;
 }
+.fotow {
+
+background-image: url(https://www.cycleeurope.com/wp-content/uploads/2016/05/Crete-senesi-varie-2005-095-1916x500.jpg);
+   background-position: right bottom, left top;
+   background-repeat: no-repeat, repeat;
+   padding: 15px;
+ }
