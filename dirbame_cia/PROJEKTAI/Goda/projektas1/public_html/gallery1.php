@@ -78,7 +78,7 @@ while ($eilute = $result->fetch_assoc()) {
                 $item = $masyvas[$i];
                 ?>
                 <div class="galerija">
-                    <a onclick="window.paspaudusNuotrauka('<?php echo $item["url"]; ?>','<?php echo $item["intro"]; ?>')">
+                    <a href="projektas.php?id= <?php echo $item["Projekto_id"]; ?>">
                         <img src="<?php echo $item["url"]; ?>" alt="<?php echo $item["intro"]; ?>" width="300"
                              height="auto">
                     </a>
@@ -97,7 +97,7 @@ while ($eilute = $result->fetch_assoc()) {
                 $item = $masyvas[$i];
                 ?>
                 <div class="galerija">
-                    <a onclick="window.paspaudusNuotrauka('<?php echo $item["url"]; ?>','<?php echo $item["intro"]; ?>')">
+                    <a href="projektas.php?id=<?php echo $item["Projekto_id"]; ?>">
                         <img src="<?php echo $item["url"]; ?>" alt="<?php echo $item["intro"]; ?>" width="300"
                              height="auto">
                     </a>
@@ -114,8 +114,7 @@ while ($eilute = $result->fetch_assoc()) {
                 $item = $masyvas[$i];
                 ?>
                 <div class="galerija">
-                    <a onclick="window.paspaudusNuotrauka('<?php echo $item["url"]; ?>','<?php echo $item["intro"]; ?>')">
-                        <!-- href="projektas.php?id=<?php echo $item["Projekto_id"]; ?>"-->
+                    <a href="projektas.php?id=<?php echo $item["Projekto_id"]; ?>">
                         <img src="<?php echo $item["url"]; ?>" alt="<?php echo $item["intro"]; ?>" width="300"
                              height="auto">
                     </a>
@@ -158,20 +157,8 @@ while ($eilute = $result->fetch_assoc()) {
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
 <!-- mano js failas visada zemiausias -->
-
-</footer>
-
-
-<!-- The Modal -->
-<div id="modalPopup" class="modal">
-    <span id="modalClose" class="close">&times;</span>
-    <span class="modal-image-container">
-        <img class="modal-content" id="modalImg">
-        <div id="modalCaption"></div>
-    </span>
-</div>
-
 <script type="text/javascript" src="main.js"></script>
+</footer>
 </body>
 
 </html>

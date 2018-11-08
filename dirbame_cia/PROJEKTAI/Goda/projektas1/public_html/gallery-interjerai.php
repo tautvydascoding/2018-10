@@ -78,9 +78,9 @@ while ($eilute = $result->fetch_assoc()) {
                 ?>
                 <div class="galerija">
                     <a href="projektas.php?id=<?php echo $item["Projekto_id"]; ?>">
-                        <img src="<?php echo $item["url"]; ?>" alt="<?php echo $item["intro"]; ?>" width="300"
+                        <img src="<?php echo $item["url"]; ?>" alt="<?php echo $item["intro"]; ?>"  width="300"
                              height="auto">
-                        
+
                     </a>
                     <h6><?php echo $item["pavadinimas"]; ?></h6>
                     <p><?php echo $item["intro"]; ?></p>
@@ -97,7 +97,7 @@ while ($eilute = $result->fetch_assoc()) {
                 $item = $masyvas[$i];
                 ?>
                 <div class="galerija">
-                    <a href="projektas.php?id=<?php echo $item["Projekto_id"]; ?>">
+                    <a href="projektas.php?id=<?php echo $item["Projekto_id"];  ?>">
                         <img src="<?php echo $item["url"]; ?>" alt="<?php echo $item["intro"]; ?>" width="300"
                              height="auto">
                     </a>

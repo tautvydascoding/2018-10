@@ -95,7 +95,7 @@ if (isset($_REQUEST["id"])) {
 <main class="container">
 
     <div class="row antraste">
-        <h6> <?php echo $pavadinimas; ?> </h6>
+        <h6> <?php echo $pavadinimas; ?> </h6> </br>
         <p> <?php echo $intro; ?> </p>
     </div>
 
@@ -105,7 +105,8 @@ if (isset($_REQUEST["id"])) {
                 $item = $masyvas[$i];
                 ?>
                 <div class="galerija">
-                    <a href="gyvenamieji/baltas_namas.html">
+                    <a onclick="window.paspaudusNuotrauka('<?php echo $item["url"]; ?>','<?php echo $item["photoIntro"]; ?>')">
+<!--                    <a href="projektas.php?id=--><?php //echo $item["Projekto_id"]; ?><!--">-->
                         <img src="<?php echo $item["url"]; ?>" alt="<?php echo $item["intro"]; ?>" width="300"
                              height="auto">
                     </a>
@@ -123,7 +124,8 @@ if (isset($_REQUEST["id"])) {
                 $item = $masyvas[$i];
                 ?>
                 <div class="galerija">
-                    <a href="gyvenamieji/baltas_namas.html">
+                    <a onclick="window.paspaudusNuotrauka('<?php echo $item["url"]; ?>','<?php echo $item["photoIntro"]; ?>')">
+<!--                    <a href="projektas.php?id=--><?php //echo $item["Projekto_id"]; ?><!--">-->
                         <img src="<?php echo $item["url"]; ?>" alt="<?php echo $item["intro"]; ?>" width="300"
                              height="auto">
                     </a>
@@ -140,7 +142,7 @@ if (isset($_REQUEST["id"])) {
                 $item = $masyvas[$i];
                 ?>
                 <div class="galerija">
-                    <a href="gyvenamieji/baltas_namas.html">
+                    <a onclick="window.paspaudusNuotrauka('<?php echo $item["url"]; ?>','<?php echo $item["photoIntro"]; ?>')">
                         <img src="<?php echo $item["url"]; ?>" alt="<?php echo $item["intro"]; ?>" width="300"
                              height="auto">
                     </a>
@@ -190,8 +192,19 @@ if (isset($_REQUEST["id"])) {
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+
+<!-- The Modal -->
+<div id="modalPopup" class="modal">
+    <span id="modalClose" class="close">&times;</span>
+    <span class="modal-image-container">
+        <img class="modal-content" id="modalImg">
+        <div id="modalCaption"></div>
+    </span>
+</div>
+
 <!-- mano js failas visada zemiausias -->
 <script type="text/javascript" src="main.js"></script>
+
 
 </body>
 
