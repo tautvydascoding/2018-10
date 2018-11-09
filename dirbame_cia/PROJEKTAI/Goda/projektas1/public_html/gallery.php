@@ -44,11 +44,11 @@ while ($eilute = $result->fetch_assoc()) {
 <!-- menu juosta -->
 <header class="container-fluid">
     <nav class="row ">
-        <div class="col-3 centravimas ">
+        <div class="col-3 centravimas logo">
             <img src="img/logo_n.jpg" alt="logo">
         </div>
         <div class="col-9">
-            <nav class="eilute">
+            <nav class="eilute menu">
                 <li class=""><a href="index.html">PAGRINDINIS</a></li>
                 <li class=""><a href="gallery.php">GALERIJA</a></li>
                 <li class=""><a href="about-me.html">APIE MANE</a></li>
