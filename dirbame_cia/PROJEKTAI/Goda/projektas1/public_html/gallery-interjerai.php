@@ -41,36 +41,12 @@ while ($eilute = $result->fetch_assoc()) {
 
 <body>
 <!-- menu juosta -->
-<header class="container-fluid">
-    <nav class="row ">
-        <div class="col-3 centravimas ">
-            <img src="img/logo_n.jpg" alt="logo">
-        </div>
-        <div class="col-9">
-            <nav class="eilute">
-                <li class=""><a href="index.html">PAGRINDINIS</a></li>
-                <li class=""><a href="gallery.php">GALERIJA</a></li>
-                <li class=""><a href="about-me.html">APIE MANE</a></li>
-                <li class=""><a href="kontaktai.html">KONTAKTAI</a></li>
-            </nav>
-        </div>
-
-    </nav>
-    <div class="row">
-        <div class="container">
-            <nav class="eilute-gallery">
-                <li class=""><a href="gallery-gyvenamieji.php">Projektai</a></li>
-                <li class=""><a href="gallery-interjerai.html">Interjerai</a></li>
-            </nav>
-        </div>
-    </div>
-
-</header>
+<?php include "fragments/header-category.php"; ?>
 <!--baigiasi menu juosta -->
 
 
 <!-- galerija -->
-<main class="container ">
+<main class="container didelis">
     <div class="row centravimas">
         <div class="column">
             <?php for ($i = 0; $i < count($masyvas); $i += 3) {
@@ -131,34 +107,15 @@ while ($eilute = $result->fetch_assoc()) {
 
 <!-- kontaktai -->
 
-<footer class="container-fluid ">
-    <div class="row kontaktai">
-        <div class="container-fluid">
-            <div class="row centravimas">
-                <h6> KONTAKTAI </h6>
-            </div>
-            <div class="row centravimas"><img src="img/phone.png" alt="telefonas">
-                <p> tel: +370-600-60000</p>
-            </div>
+<?php include "fragments/footer-kontaktai.php"; ?>
 
-            <div class="row centravimas"><img src="img/email.png" alt="el.pastas">
-                <p> das@gmail.com</p>
-            </div>
-        </div>
-    </div>
-    <div class="row apacios-eilute centravimas">
-
-        <p> © Visos teisės saugomos, 2018 </p>
-    </div>
-
-</footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
 <!-- mano js failas visada zemiausias -->
 <script type="text/javascript" src="main.js"></script>
-</footer>
+
 </body>
 
 </html>
