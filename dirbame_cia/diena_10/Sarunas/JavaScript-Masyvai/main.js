@@ -71,7 +71,7 @@ $('h1').css('color', 'pink');
     // UZDUOTIS 2 --------------
     // sukurti matrica, kurioje bus saugoma kiekvienos prekes info:
     // Antraste, img pavadinimas, kaina, prekes aprasymas
-
+     
     // A. sukurti masyva preke: Antraste, img pavadinimas, prekes aprasymas, kaina
     // B. i masyva visosPrekes, ideti "preke" masyva
     // C. atvaizduodi kiekvienoje eiluteje po 3 prekes (naudojant for arba foreach) ir bootstrap dizaina
